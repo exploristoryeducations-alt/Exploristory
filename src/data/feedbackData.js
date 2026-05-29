@@ -165,9 +165,7 @@ const feedbackData = [
       "/images/feedback/nps/nps-3.webp",
       "/images/feedback/nps/nps-4.webp",
       "/images/feedback/nps/nps-5.webp",
-      "/images/feedback/nps/nps-6.webp",
-      "/images/feedback/nps/nps-7.webp",
-    ],
+      "/images/feedback/nps/nps-6.webp",    ],
   },
 ];
 
