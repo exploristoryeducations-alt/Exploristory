@@ -2,7 +2,7 @@ function Custom() {
   return (
     <section id="custom" className="service-section">
       <div className="container">
-        <h1 className="section-title">Custom Heritage Programs</h1>
+        <h1 className="section-title">CUSTOM HERITAGE PROGRAMS</h1>
 
         <p>
           Every school has different learning goals. Exploristory designs custom

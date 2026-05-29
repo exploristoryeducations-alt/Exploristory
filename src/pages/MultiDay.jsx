@@ -4,7 +4,7 @@ function MultiDay() {
   return (
     <section id="multiday" className="service-section">
       <div className="container">
-        <h1 className="section-title">Multi-Day Heritage Expeditions</h1>
+        <h1 className="section-title">MULTI-DAY HERITAGE EXPEDITIONS</h1>
 
         <p className="service-intro mb--2half">
           Take learning beyond the classroom through immersive educational

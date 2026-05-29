@@ -2,7 +2,7 @@ function Expo() {
   return (
     <section id="expo" className="service-section">
       <div className="container">
-        <h1 className="section-title">Heritage Expo Planning</h1>
+        <h1 className="section-title">HERITAGE EXPO PLANNING</h1>
 
         <p>
           Exploristory assists schools in designing and organising engaging

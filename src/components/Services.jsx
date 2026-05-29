@@ -10,9 +10,9 @@ import customImg from "../assets/img/services/custom.jpg";
 function Services() {
   return (
     <section id="services" className="container">
-      <h2 className="section-title">Our Services</h2>
+      <h2 className="section-title">OUR SERVICES</h2>
 
-      <h3 className="subsection-title">Our Operating Cities</h3>
+      <h3 className="subsection-title">OUR OPERATING CITIES</h3>
 
       <div className="operating-cities">
         <Link to="/services/chennai#oneday">Chennai</Link>
@@ -34,7 +34,7 @@ function Services() {
             className="card service-card"
             style={{ backgroundImage: `url(${onedayImg})` }}
           >
-            <h3>One-Day Trips</h3>
+            <h3>ONE-DAY TRIPS</h3>
           </div>
         </Link>
 
@@ -43,7 +43,7 @@ function Services() {
             className="card service-card"
             style={{ backgroundImage: `url(${multidayImg})` }}
           >
-            <h3>Multi-Day Expeditions</h3>
+            <h3>MULTI-DAY EXPEDITIONS</h3>
           </div>
         </Link>
 
@@ -52,7 +52,7 @@ function Services() {
             className="card service-card"
             style={{ backgroundImage: `url(${workshopsImg})` }}
           >
-            <h3>In-House Workshops</h3>
+            <h3>IN-HOUSE WORKSHOPS</h3>
           </div>
         </Link>
 
@@ -61,7 +61,7 @@ function Services() {
             className="card service-card"
             style={{ backgroundImage: `url(${facilitatorImg})` }}
           >
-            <h3>Facilitator Support</h3>
+            <h3>FACILITATOR SUPPORT</h3>
           </div>
         </Link>
 
@@ -70,7 +70,7 @@ function Services() {
             className="card service-card"
             style={{ backgroundImage: `url(${expoImg})` }}
           >
-            <h3>Heritage Expo Planning</h3>
+            <h3>HERITAGE EXPO PLANNING</h3>
           </div>
         </Link>
 
@@ -79,7 +79,7 @@ function Services() {
             className="card service-card"
             style={{ backgroundImage: `url(${customImg})` }}
           >
-            <h3>Custom Programs</h3>
+            <h3>CUSTOM PROGRAMS</h3>
           </div>
         </Link>
       </div>

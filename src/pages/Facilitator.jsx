@@ -2,7 +2,7 @@ function Facilitator() {
   return (
     <section id="facilitator" className="service-section">
       <div className="container">
-        <h1 className="section-title">Facilitator Support</h1>
+        <h1 className="section-title">FACILITATOR SUPPORT</h1>
 
         <p>
           Schools planning their own heritage visits can partner with

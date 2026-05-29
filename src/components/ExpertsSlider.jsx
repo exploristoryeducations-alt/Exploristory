@@ -44,7 +44,7 @@ function ExpertsSlider() {
   return (
     <section className="experts-section">
       <div className="container">
-        <h3 className="subsection-title">Our Experts</h3>
+        <h3 className="subsection-title">OUR EXPERTS</h3>
 
         <div className="experts-slider" ref={sliderRef}>
           {experts.map((expert, index) => (

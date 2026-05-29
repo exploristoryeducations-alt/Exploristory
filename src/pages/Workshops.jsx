@@ -2,7 +2,7 @@ function Workshops() {
   return (
     <section id="workshops" className="service-section">
       <div className="container">
-        <h1 className="section-title">In-House Heritage Workshops</h1>
+        <h1 className="section-title">IN-HOUSE HERITAGE WORKSHOPS</h1>
 
         <p>
           Our in-house workshops bring archaeology and heritage directly into

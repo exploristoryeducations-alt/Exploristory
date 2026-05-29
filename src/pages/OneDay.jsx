@@ -12,7 +12,7 @@ function OneDay() {
   return (
     <section id="oneday" className="service-section">
       <div className="container">
-        <h1 className="section-title">One-Day Trips</h1>
+        <h1 className="section-title">ONE-DAY TRIPS</h1>
 
         <div className="city-tabs">
           <button
@@ -260,9 +260,9 @@ function OneDay() {
               </ul>
 
               <p>
-                The program is flexible and customizable depending on the sites
-                selected by the school. For detailed itineraries and bookings,
-                please contact us through the Contact section.
+                Programs can be customised according to school requirements. For
+                detailed planning and bookings, please contact us through the
+                Contact section.
               </p>
             </>
           )}
@@ -336,9 +336,9 @@ function OneDay() {
               </ul>
 
               <p>
-                The program includes travel, site entry, meals, safety
-                provisions, and specially curated learning activities. Schools
-                can contact us for customized itineraries.
+                Programs can be customised according to school requirements. For
+                detailed planning and bookings, please contact us through the
+                Contact section.
               </p>
             </>
           )}
@@ -403,10 +403,9 @@ function OneDay() {
               </ul>
 
               <p>
-                The program includes transportation, entry tickets, facilitator
-                support, and an evening snack. Additional meals can be arranged
-                on request. Schools can contact us for customized plans and
-                inclusions.
+                Programs can be customised according to school requirements. For
+                detailed planning and bookings, please contact us through the
+                Contact section.
               </p>
             </>
           )}
@@ -476,9 +475,9 @@ function OneDay() {
               </ul>
 
               <p>
-                Programs can be customized according to the school's academic
-                requirements. For detailed planning and bookings, please contact
-                us through the Contact section.
+                Programs can be customised according to school requirements. For
+                detailed planning and bookings, please contact us through the
+                Contact section.
               </p>
             </>
           )}
@@ -568,9 +567,9 @@ function OneDay() {
               </ul>
 
               <p>
-                Programs can be customized depending on the sites selected by
-                the school. For detailed itineraries and bookings, please
-                contact us through the Contact section.
+                Programs can be customised according to school requirements. For
+                detailed planning and bookings, please contact us through the
+                Contact section.
               </p>
             </>
           )}
@@ -668,10 +667,9 @@ function OneDay() {
               </ul>
 
               <p>
-                The program includes travel, site entry, meals, safety
-                provisions, and curated heritage learning activities. For
+                Programs can be customised according to school requirements. For
                 detailed planning and bookings, please contact us through the
-                Contact section
+                Contact section.
               </p>
             </>
           )}
@@ -750,9 +748,9 @@ function OneDay() {
               </ul>
 
               <p>
-                Programs can be customized depending on the sites selected by
-                the school. For detailed planning and bookings, please contact
-                us through the Contact section.
+                Programs can be customised according to school requirements. For
+                detailed planning and bookings, please contact us through the
+                Contact section.
               </p>
             </>
           )}
@@ -842,11 +840,9 @@ function OneDay() {
               </ul>
 
               <p>
-                Programs can be customized based on curriculum needs and site
-                preferences. Schools can also opt for specialized experiential
-                modules covering different historical periods across Delhi. For
+                Programs can be customised according to school requirements. For
                 detailed planning and bookings, please contact us through the
-                Contact section
+                Contact section.
               </p>
             </>
           )}
@@ -950,11 +946,9 @@ function OneDay() {
               </ul>
 
               <p>
-                Programs can be customized based on curriculum
-                (CBSE/ICSE/IGCSE), grade level, and thematic focus. Schools can
-                opt for specific expeditions or a combination of sites across
-                different historical periods in Hyderabad. For detailed planning
-                and bookings, please contact us through the Contact section.
+                Programs can be customised according to school requirements. For
+                detailed planning and bookings, please contact us through the
+                Contact section.
               </p>
             </>
           )}
@@ -1077,11 +1071,9 @@ function OneDay() {
               </ul>
 
               <p>
-                Programs can be customized based on curriculum
-                (CBSE/ICSE/IGCSE), grade level, and thematic focus. Schools can
-                opt for specific expeditions or a combination of sites across
-                different historical periods in Ahmedabad. For detailed planning
-                and bookings, please contact us through the Contact section.
+                Programs can be customised according to school requirements. For
+                detailed planning and bookings, please contact us through the
+                Contact section.
               </p>
             </>
           )}

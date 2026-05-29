@@ -26,7 +26,7 @@ function OurWork() {
 
   return (
     <section id="our-work" className="container">
-      <h1 className="section-title">Our Work & Feedbacks</h1>
+      <h1 className="section-title">OUR WORK & FEEDBACKS</h1>
 
       <div className="feedback-list">
         {feedbackData.slice(0, visibleCount).map((item) => (

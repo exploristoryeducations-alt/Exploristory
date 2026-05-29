@@ -39,7 +39,7 @@ function Contact() {
   return (
     <section id="contact">
       <div className="container">
-        <h2 className="section-title">Get In Touch</h2>
+        <h2 className="section-title">GET IN TOUCH</h2>
 
         <div className="contact-wrapper">
           <div className="contact-left">

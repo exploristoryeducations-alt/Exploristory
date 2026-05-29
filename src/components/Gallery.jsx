@@ -1,18 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 
-import img1 from "../assets/img/gallery/1.jpg";
-import img2 from "../assets/img/gallery/2.jpg";
-import img3 from "../assets/img/gallery/3.jpg";
-import img4 from "../assets/img/gallery/4.jpg";
-import img5 from "../assets/img/gallery/5.jpg";
-import img6 from "../assets/img/gallery/6.jpg";
-import img7 from "../assets/img/gallery/7.jpg";
-import img8 from "../assets/img/gallery/8.jpg";
-import img9 from "../assets/img/gallery/9.jpg";
-import img10 from "../assets/img/gallery/10.jpg";
-import img11 from "../assets/img/gallery/11.jpg";
-import img12 from "../assets/img/gallery/12.jpg";
-
 function Gallery() {
   const sliderRef = useRef(null);
 
@@ -21,18 +8,24 @@ function Gallery() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const images = [
-    img1,
-    img2,
-    img3,
-    img4,
-    img5,
-    img6,
-    img7,
-    img8,
-    img9,
-    img10,
-    img11,
-    img12,
+    "/images/gallery/1.webp",
+    "/images/gallery/2.webp",
+    "/images/gallery/3.webp",
+    "/images/gallery/4.webp",
+    "/images/gallery/5.webp",
+    "/images/gallery/6.webp",
+    "/images/gallery/7.webp",
+    "/images/gallery/8.webp",
+    "/images/gallery/9.webp",
+    "/images/gallery/10.webp",
+    "/images/gallery/11.webp",
+    "/images/gallery/12.webp",
+    "/images/gallery/13.webp",
+    "/images/gallery/14.webp",
+    "/images/gallery/15.webp",
+    "/images/gallery/16.webp",
+    "/images/gallery/17.webp",
+    
   ];
 
   useEffect(() => {
@@ -89,7 +82,6 @@ function Gallery() {
 
   return (
     <section className="gallery-section">
-      {/* <div className="container"> */}
       <div className="gallery-slider">
         <button className="slider-btn prev" onClick={slideLeft}>
           &#10094;
@@ -100,7 +92,7 @@ function Gallery() {
             <img
               key={index}
               src={img}
-              alt=""
+              alt={`gallery-${index + 1}`}
               loading="lazy"
               onClick={() => {
                 setSelectedImage(img);
@@ -135,7 +127,6 @@ function Gallery() {
           </button>
         </div>
       )}
-      {/* </div> */}
     </section>
   );
 }

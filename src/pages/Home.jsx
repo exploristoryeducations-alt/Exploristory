@@ -27,7 +27,7 @@ function Home() {
       <div className="container">
         <div className="about-content">
           <div className="about-text full-width">
-            <h2>About Exploristory</h2>
+            <h2>ABOUT EXPLORISTORY</h2>
 
             <p>
               Exploristory is an experiential learning initiative that brings
@@ -42,7 +42,7 @@ function Home() {
           </div>
         </div>
 
-        <h3 className="subsection-title">Why Choose Exploristory?</h3>
+        <h3 className="subsection-title">WHY CHOOSE EXPLORISTORY?</h3>
 
         <div className="why-grid">
           <div className="why-card">
