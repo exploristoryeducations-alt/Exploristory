@@ -24,10 +24,14 @@ function FeedbackModal({ item, onClose }) {
           <div className="feedback-modal-body">
             <h3>Feedback</h3>
 
-            <div className="feedback-quote modal-quote">
-              <p>"{item.feedback}"</p>
+            <div className="all-feedbacks">
+              {item.feedbacks.map((feedback, index) => (
+                <div key={index} className="feedback-quote modal-quote">
+                  <p>"{feedback.text}"</p>
 
-              <span>— {item.author}</span>
+                  <span>— {feedback.author}</span>
+                </div>
+              ))}
             </div>
 
             <div className="feedback-modal-gallery">

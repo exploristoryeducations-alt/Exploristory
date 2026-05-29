@@ -9,9 +9,9 @@ function FeedbackCard({ item, onViewMore }) {
         </p>
 
         <div className="feedback-quote">
-          <p>"{item.feedback}"</p>
+          <p>"{item.feedbacks[0].text}"</p>
 
-          <span>— {item.author}</span>
+          <span>— {item.feedbacks[0].author}</span>
         </div>
       </div>
 

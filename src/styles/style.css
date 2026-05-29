@@ -253,7 +253,7 @@ nav a:hover {
   scroll-behavior: smooth;
   scrollbar-width: none;
   padding: 0.5rem 0;
-  padding-inline: 2rem; /* Add horizontal padding to the slider track */
+  padding-inline: 2rem;
 }
 
 .slider-track img {
@@ -891,6 +891,13 @@ nav a:hover {
 
 .modal-quote {
   margin-top: 1rem;
+}
+
+/* ===== Multiple Feedbacks ===== */
+.all-feedbacks {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
 }
 
 /* ===== Modal Gallery ===== */
