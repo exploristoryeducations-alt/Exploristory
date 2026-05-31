@@ -150,7 +150,7 @@ main.container {
 }
 
 .nav-brand {
-  color: var(--cream);
+  color: var(--accent-gold);
   font-weight: 600;
   font-size: 1.2rem;
   display: none;
@@ -1399,7 +1399,7 @@ body:has(footer:hover) .floating-contact-btn {
     display: block;
     font-size: 1.1rem;
     font-weight: 700;
-    color: var(--cream);
+    color: var(--accent-gold);
     z-index: 10002;
   }
 
@@ -1418,7 +1418,7 @@ body:has(footer:hover) .floating-contact-btn {
     width: 26px;
     height: 3px;
     border-radius: 10px;
-    background: var(--white);
+    background: var(--accent-gold);
     transition: all 0.3s ease;
   }
 
