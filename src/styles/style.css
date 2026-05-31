@@ -109,7 +109,7 @@ main.container {
 }
 
 .card {
-  background: white;
+  background: var(--white);
   border-radius: 10px;
   padding: 2rem;
   box-shadow: var(--shadow-light);
@@ -128,7 +128,7 @@ main.container {
   position: sticky;
   top: 0;
   z-index: 9999;
-  background-color: rgba(56, 94, 96, 0.96);
+  background-color: var(--dark-bg);
   backdrop-filter: blur(10px);
   padding: 1.15rem 2rem;
   width: 100%;
@@ -231,7 +231,7 @@ nav a:hover {
 .hero-right h1 {
   font-size: clamp(1.5rem, 4vw, 2.2rem);
   line-height: 1.5;
-  color: white;
+  color: var(--accent-gold);
   margin: 0;
 }
 
@@ -285,7 +285,7 @@ nav a:hover {
   border: none;
   border-radius: 50%;
   background: rgba(0, 0, 0, 0.6);
-  color: white;
+  color: var(--white);
   font-size: 1.5rem;
   cursor: pointer;
   z-index: 10;
@@ -337,7 +337,7 @@ nav a:hover {
 }
 
 .why-card {
-  background: white;
+  background: var(--white);
   padding: 1.8rem;
   border-radius: 10px;
   border-top: 4px solid var(--accent-gold);
@@ -401,7 +401,7 @@ nav a:hover {
 .service-card h3 {
   position: relative;
   z-index: 2;
-  color: white;
+  color: var(--white);
   text-transform: uppercase;
   font-size: clamp(1.4rem, 3vw, 2.2rem);
   font-weight: 800;
@@ -570,7 +570,7 @@ nav a:hover {
   display: flex;
   gap: 1rem;
   z-index: 999;
-  background: rgba(255, 255, 255, 0.95);
+  background: var(--white);
   padding: 0.55rem;
   border-radius: 50px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
@@ -587,11 +587,11 @@ nav a:hover {
 
 .sticky-btn.primary {
   background: var(--primary-teal);
-  color: white;
+  color: var(--white);
 }
 
 .sticky-btn.secondary {
-  background: white;
+  background: var(--white);
   color: var(--primary-teal);
   border: 2px solid var(--primary-teal);
 }
@@ -611,10 +611,10 @@ nav a:hover {
 
 .operating-cities a {
   padding: 0.7rem 1.4rem;
-  border: 2px solid #1d7f8c;
+  border: 2px solid var(--primary-teal);
   border-radius: 999px;
 
-  color: #1d7f8c;
+  color: var(--primary-teal);
   text-decoration: none;
   font-weight: 600;
 
@@ -622,8 +622,8 @@ nav a:hover {
 }
 
 .operating-cities a:hover {
-  background: #1d7f8c;
-  color: white;
+  background: var(--primary-teal);
+  color: var(--white);
 }
 
 /* ===== Our Works/Feedback Section ===== */
@@ -640,11 +640,11 @@ nav a:hover {
   display: flex;
   justify-content: space-between;
   gap: 1.5rem;
-  background: #ffffff;
+  background: var(--white);
   border-radius: 20px;
   padding: 1.5rem;
   box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
-  border-top: 4px solid #1d7f8c;
+  border-top: 4px solid var(--primary-teal);
   transition: all 0.3s ease;
 }
 
@@ -658,13 +658,13 @@ nav a:hover {
 }
 
 .feedback-left h3 {
-  color: #0f7a8a;
+  color: var(--primary-teal);
   margin-bottom: 0.5rem;
   font-size: 1.5rem;
 }
 
 .trip-info {
-  color: #c89b63;
+  color: var(--accent-gold);
   font-weight: 600;
   margin-bottom: 1.5rem;
 }
@@ -681,9 +681,9 @@ nav a:hover {
 
 .feedback-quote {
   margin-top: 1.5rem;
-  background: #f8f5f2;
+  background: var(--cream);
   padding: 1.2rem;
-  border-left: 4px solid #c89b63;
+  border-left: 4px solid var(--accent-gold);
   border-radius: 10px;
 }
 
@@ -694,7 +694,7 @@ nav a:hover {
 .feedback-quote span {
   display: block;
   margin-top: 0.8rem;
-  color: #0f7a8a;
+  color: var(--primary-teal);
   font-weight: 600;
 }
 
@@ -723,15 +723,15 @@ nav a:hover {
   padding: 0.9rem 1.4rem;
   border: none;
   border-radius: 12px;
-  background: #1d7f8c;
-  color: white;
+  background: var(--primary-teal);
+  color: var(--white);
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .feedback-right button:hover {
-  background: #166672;
+  background: var(--primary-teal-hover);
   transform: translateY(-2px);
 }
 
@@ -748,15 +748,15 @@ nav a:hover {
   padding: 1rem 2rem;
   border: none;
   border-radius: 999px;
-  background: #1d7f8c;
-  color: white;
+  background: var(--primary-teal);
+  color: var(--white);
   font-weight: 600;
   cursor: pointer;
   transition: 0.3s ease;
 }
 
 .load-more-btn:hover {
-  background: #166672;
+  background: var(--primary-teal-hover);
   transform: translateY(-2px);
 }
 
@@ -764,21 +764,21 @@ nav a:hover {
   padding: 1rem 2rem;
   border: none;
   border-radius: 999px;
-  background: #c89b63;
-  color: white;
+  background: var(--accent-gold);
+  color: var(--white);
   font-weight: 600;
   cursor: pointer;
   transition: 0.3s ease;
 }
 
 .show-less-btn:hover {
-  background: #b1834f;
+  background: var(--accent-gold-hover);
   transform: translateY(-2px);
 }
 
 /* ===== Feedback Modal ===== */
 .feedback-modal {
-  background: white;
+  background: var(--white);
   width: min(1200px, 96%);
   height: 100dvh;
   max-height: 100dvh;
@@ -854,7 +854,7 @@ nav a:hover {
   gap: 1rem;
   padding: 2rem 2.5rem;
   border-bottom: 1px solid #ececec;
-  background: white;
+  background: var(--white);
   z-index: 2;
 }
 
@@ -922,7 +922,7 @@ nav a:hover {
   border: none;
   border-radius: 50%;
   background: var(--primary-teal);
-  color: white;
+  color: var(--white);
   font-size: 1.4rem;
   cursor: pointer;
   flex-shrink: 0;
@@ -940,8 +940,8 @@ nav a:hover {
   padding: 1.5rem 2.5rem;
   display: flex;
   justify-content: flex-end;
-  border-top: 1px solid #ececec;
-  background: white;
+  border-top: 1px solid var(--white);
+  background: var(--white);
   z-index: 2;
 }
 
@@ -950,14 +950,14 @@ nav a:hover {
   border: none;
   border-radius: 999px;
   background: var(--primary-teal);
-  color: white;
+  color: var(--white);
   font-weight: 600;
   cursor: pointer;
   transition: 0.3s ease;
 }
 
 .modal-close-bottom:hover {
-  background: #166672;
+  background: var(--primary-teal-hover);
 }
 
 /* ===== Team Section ===== */
@@ -1002,7 +1002,7 @@ nav a:hover {
   border-radius: 10px;
   border-top: 4px solid var(--accent-gold);
   padding: 1.5rem;
-  background: white;
+  background: var(--white);
   box-shadow: var(--shadow-light);
 }
 
@@ -1105,21 +1105,14 @@ nav a:hover {
 /* ===== Expert Card ===== */
 .expert-card {
   flex: 0 0 auto;
-
   width: clamp(190px, 20vw, 230px);
-
-  background: white;
-
+  background: var(--white);
   border-radius: 20px;
-
   overflow: hidden;
-
   box-shadow: var(--shadow-light);
-
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease;
-
   cursor: pointer;
 }
 
@@ -1132,33 +1125,26 @@ nav a:hover {
 .expert-card img {
   width: 100%;
   height: 260px;
-
   object-fit: cover;
-
   display: block;
 }
 
 /* ===== Expert Info ===== */
 .expert-info {
   padding: 1rem;
-
   text-align: center;
 }
 
 .expert-info h4 {
   color: var(--primary-teal);
-
   font-size: 1rem;
   font-weight: 700;
-
   margin-bottom: 0.35rem;
-
   line-height: 1.35;
 }
 
 .expert-info p {
   color: var(--text-light);
-
   font-size: 0.88rem;
   line-height: 1.5;
 }
@@ -1236,7 +1222,7 @@ nav a:hover {
   width: 100%;
   padding: 12px;
   margin-top: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid var(--white);
   border-radius: 8px;
   font-size: 1rem;
 }
@@ -1246,7 +1232,7 @@ nav a:hover {
   margin-top: 1rem;
   padding: 12px 24px;
   background: var(--primary-teal);
-  color: white;
+  color: var(--white);
   border: none;
   border-radius: 10px;
   cursor: pointer;
@@ -1263,7 +1249,7 @@ nav a:hover {
 .btn-loader {
   width: 18px;
   height: 18px;
-  border: 2px solid white;
+  border: 2px solid var(--white);
   border-top: 2px solid transparent;
   border-radius: 50%;
   display: none;
@@ -1308,7 +1294,7 @@ footer p {
   bottom: 20px;
   right: 20px;
   background: var(--primary-teal);
-  color: white;
+  color: var(--white);
   padding: 0.95rem 1.4rem;
   border-radius: 999px;
   text-decoration: none;
@@ -1365,7 +1351,7 @@ body:has(footer:hover) .floating-contact-btn {
   top: 20px;
   right: 30px;
   font-size: 40px;
-  color: white;
+  color: var(--white);
   cursor: pointer;
 }
 
@@ -1377,7 +1363,7 @@ body:has(footer:hover) .floating-contact-btn {
   font-size: 40px;
   background: none;
   border: none;
-  color: white;
+  color: var(--white);
   cursor: pointer;
   padding: 10px;
 }
@@ -1434,9 +1420,7 @@ body:has(footer:hover) .floating-contact-btn {
     width: 26px;
     height: 3px;
     border-radius: 10px;
-
-    background: white;
-
+    background: var(--white);
     transition: all 0.3s ease;
   }
 
@@ -1451,7 +1435,7 @@ body:has(footer:hover) .floating-contact-btn {
     flex-direction: column;
     align-items: center;
     gap: 0;
-    background: rgba(56, 94, 96, 0.98);
+    background: var(--dark-bg);
     backdrop-filter: blur(12px);
     border-radius: 18px;
     overflow: hidden;
@@ -1495,7 +1479,7 @@ body:has(footer:hover) .floating-contact-btn {
   }
 
   .nav-links a.active {
-    color: white;
+    color: var(--white);
     border-bottom: none;
     background: rgba(255, 255, 255, 0.08);
   }
@@ -1780,11 +1764,8 @@ body:has(footer:hover) .floating-contact-btn {
 
   .city-tabs button {
     flex-shrink: 0;
-
     padding: 0.75rem 1.2rem;
-
     font-size: 0.92rem;
-
     white-space: nowrap;
   }
 
@@ -1792,7 +1773,6 @@ body:has(footer:hover) .floating-contact-btn {
   .service-gallery {
     grid-template-columns: 1fr;
     gap: 0.9rem;
-
     margin: 1.5rem 0;
   }
 
@@ -1804,28 +1784,20 @@ body:has(footer:hover) .floating-contact-btn {
   /* ===== Sticky Bottom Bar ===== */
   .services-sticky-bar {
     width: calc(100% - 20px);
-
     left: 50%;
     transform: translateX(-50%);
-
     right: auto;
     bottom: 10px;
-
     gap: 0.6rem;
-
     padding: 0.6rem;
-
     border-radius: 20px;
   }
 
   .sticky-btn {
     min-height: 50px;
-
     padding: 0.8rem;
-
     font-size: 0.8rem;
     line-height: 1.3;
-
     text-align: center;
   }
 
@@ -2054,10 +2026,10 @@ body:has(footer:hover) .floating-contact-btn {
   /* ===== Back ===== */
   .team-card-back {
     margin-top: 0;
-    border-top: 1px solid #ececec;
+    border-top: 1px solid var(--white);
     border-top-left-radius: 0;
     border-top-right-radius: 0;
-    background: #fafafa;
+    background: var(--white);
     padding-top: 1rem;
     text-align: left;
     display: block;
