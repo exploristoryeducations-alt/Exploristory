@@ -37,7 +37,7 @@ const mentors = [
     name: "Prof. Jinu Koshy",
     role: "Heritage Learning & Pedagogy Mentor",
     image: jinuImg,
-    preview: "Excavation expert specializing in Palaeolithic archaeology.",
+    preview: "Excavation expert specializing in Palaeolithic archaeology & Rock Art.",
     bio: "Dr. Jinu Koshy is an Archaeologist and Excavation In-charge at the Department of Ancient History and Archaeology, University of Madras. With experience of leading 15+ excavations across South India, he specializes in Palaeolithic Archaeology, Rock Art, and Field Archaeology, and is actively involved in research on ancient settlement patterns and rock art sites.​",
   },
 ];

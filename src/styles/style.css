@@ -108,6 +108,14 @@ main.container {
   font-weight: 700;
 }
 
+.subsection-title {
+  color: var(--primary-teal);
+  text-align: center;
+  margin: 0 0 1.5rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
 .card {
   background: var(--white);
   border-radius: 10px;
@@ -963,121 +971,111 @@ nav a:hover {
 /* ===== Team Section ===== */
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 1.5rem;
-  margin-top: 1.5rem;
-  margin-bottom: 2.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  align-items: start;
 }
 
+/* ===== Team Card ===== */
 .team-card {
-  perspective: 1000px;
-  margin-bottom: 0;
-}
-
-.team-card-inner {
-  position: relative;
-  width: 100%;
-  min-height: 220px;
-  height: auto;
-  transition: transform var(--transition-normal);
-  transform-style: preserve-3d;
-}
-
-.team-card:hover .team-card-inner {
-  transform: translateY(-5px);
-  box-shadow: var(--shadow-hover);
-}
-
-.team-card.flip .team-card-inner {
-  transform: rotateY(180deg);
-}
-
-/* ===== Team Section (FRONT & BACK) ===== */
-.team-card-front,
-.team-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  border-radius: 10px;
+  background: linear-gradient(180deg, #ffffff 0%, #faf8f5 100%);
+  border-radius: 24px;
   border-top: 4px solid var(--accent-gold);
-  padding: 1.5rem;
-  background: var(--white);
-  box-shadow: var(--shadow-light);
+  padding: 1.7rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
-/* ===== Team Section (FRONT) ===== */
+.team-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.09);
+}
+
+/* ===== Front Layout ===== */
 .team-card-front {
   display: flex;
-  align-items: center;
-  gap: 1rem;
+  align-items: flex-start;
+  gap: 1.4rem;
 }
 
-/* ===== Team Section (IMAGE) ===== */
+/* ===== Image ===== */
 .team-card-front img {
-  width: 105px;
+  width: 110px;
   height: 140px;
-  border-radius: 10px;
   object-fit: cover;
+  border-radius: 18px;
   border: 3px solid var(--accent-gold);
+  flex-shrink: 0;
 }
 
-/* ===== Team Section (TEXT) ===== */
+/* ===== Text ===== */
+.team-info {
+  flex: 1;
+}
+
 .team-info h3 {
   color: var(--primary-teal);
-  margin-bottom: 4px;
-}
-
-.read-more {
-  display: inline-block;
-  margin-top: 6px;
-  font-size: 0.8rem;
-  color: var(--primary-teal);
-  font-weight: 600;
-  cursor: pointer;
+  font-size: 1.5rem;
+  margin-bottom: 0.3rem;
 }
 
 .team-info .role {
   color: var(--accent-gold);
   font-size: 1rem;
-  margin-top: -0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-/* ===== Team Section (BACK) ===== */
-.team-card-back {
-  transform: rotateY(180deg);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: var(--text-light);
-  line-height: 1.6;
-  position: relative;
-  overflow-y: auto;
-}
-
-.team-card-back p {
-  font-size: 0.95rem;
-  line-height: 1.7;
-}
-
-.back-btn {
-  position: absolute;
-  bottom: 15px;
-  left: 32px;
-  font-size: 0.8rem;
   font-weight: 600;
-  color: var(--primary-teal);
-  cursor: pointer;
+  margin-bottom: 0.9rem;
 }
 
-.subsection-title {
+.team-info .preview {
+  color: var(--text-light);
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+/* ===== Expand Button ===== */
+.read-more-btn {
+  margin-top: 1rem;
+  background: transparent;
+  border: none;
   color: var(--primary-teal);
-  text-align: center;
-  margin: 0 0 1.5rem;
-  font-size: 1.7rem;
   font-weight: 700;
+  cursor: pointer;
+  font-size: 0.92rem;
+  padding: 0;
+  transition: 0.3s ease;
+}
+
+.read-more-btn:hover {
+  color: var(--accent-gold);
+}
+
+/* ===== Expandable Bio ===== */
+.team-card-bio {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition:
+    max-height 0.45s ease,
+    opacity 0.3s ease,
+    margin-top 0.3s ease;
+}
+
+.team-card-bio.show {
+  max-height: 500px;
+  opacity: 1;
+  margin-top: 1.4rem;
+  padding-top: 1.3rem;
+  border-top: 1px solid var(--white);
+}
+
+.team-card-bio p {
+  color: var(--text-light);
+  line-height: 1.95;
+  font-size: 1rem;
 }
 
 /* ===== Expert Slider ===== */
@@ -1222,7 +1220,7 @@ nav a:hover {
   width: 100%;
   padding: 12px;
   margin-top: 10px;
-  border: 1px solid var(--white);
+  border: 1px solid rgb(214, 214, 214);
   border-radius: 8px;
   font-size: 1rem;
 }
@@ -2023,27 +2021,16 @@ body:has(footer:hover) .floating-contact-btn {
     line-height: 1.7;
   }
 
-  /* ===== Back ===== */
-  .team-card-back {
-    margin-top: 0;
-    border-top: 1px solid var(--white);
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    background: var(--white);
+  .team-card-bio {
+    max-height: unset !important;
+    opacity: 1 !important;
+    overflow: visible;
+    margin-top: 1rem;
     padding-top: 1rem;
-    text-align: left;
-    display: block;
+    border-top: 1px solid #ececec;
   }
 
-  .team-card-back p {
-    font-size: 0.94rem;
-    line-height: 1.8;
-    color: var(--text-light);
-  }
-
-  /* ===== Hide Flip Controls ===== */
-  .read-more,
-  .back-btn {
+  .read-more-btn {
     display: none;
   }
 
