@@ -27,19 +27,12 @@ const multidayData = [
 
     activities: [
       "Rock art recreation workshops inspired by Bhimbetka cave paintings",
-      "Architectural observation and inquiry sessions at Bhojpur Temple",
-      "Storytelling and role-play activities exploring Buddhist cultural exchanges at Sanchi",
-      "Temple symbolism and inscription design workshops at Udayagiri and Gyaraspur",
-      "Interactive exploration of indigenous art and tribal traditions at the Tribal Museum",
-      "Field journaling, sketching, and archaeological observation exercises",
+      "Architectural observation sessions at Bhojpur Temple",
     ],
 
     outcomes: [
       "Develops understanding of prehistoric and ancient Indian history",
-      "Explores themes of religion, trade, polity, social hierarchy, and tribal cultures",
-      "Introduces students to archaeological methods and historical interpretation",
-      "Encourages inquiry-based learning, observation, and critical thinking",
-      "Connects classroom learning with real-world historical landscapes",
+      "Encourages inquiry-based learning and critical thinking",
     ],
 
     cost: "Approx. ₹15,500 per student",
@@ -70,21 +63,12 @@ const multidayData = [
 
     activities: [
       "Guided wonder walks through ancient Harappan ruins",
-      "Storytelling and discussion sessions exploring Harappan civilisation",
-      "Group-based investigations into urban planning, trade, and craftsmanship",
       "Role-play activity: 'A Day in the Life of a Harappan Citizen'",
-      "Archaeologist-for-a-Day documentation and interpretation exercises",
-      "Fossil sketching and prehistoric timeline creation workshops",
-      "Museum artefact curation and themed exhibit activities",
-      "Reflection circles and collaborative presentation sessions",
     ],
 
     outcomes: [
       "Strengthens historical reasoning and observational skills",
-      "Encourages inquiry-based and reflective learning",
       "Develops understanding of ancient urban systems and civilisation structures",
-      "Connects textbook history with archaeological field exploration",
-      "Promotes collaboration, creativity, and interdisciplinary thinking",
     ],
 
     cost: "Approx. ₹25,000 per student",
@@ -114,22 +98,13 @@ const multidayData = [
     ],
 
     activities: [
-      "Battlefield mapping and military strategy exercises at Sinhagad Fort",
-      "Maratha soldier journal-writing and historical reflection sessions",
-      "Role-play recreations of Shivaji Maharaj's meeting with Afzal Khan",
-      "Ethical debates on diplomacy, warfare, and leadership",
-      "Warship design workshops exploring Maratha naval innovation at Suvarnadurg",
-      "Illustrated coastal postcard creation inspired by maritime heritage",
-      "Shivaji court simulations and royal seal design challenges at Raigad",
-      "Collaborative storytelling and tactical planning activities",
+      "Battlefield mapping, strategy exercises, and role-play recreations of key Maratha events",
+      "Creative workshops on naval innovation, fort heritage, court simulations, and storytelling activities",
     ],
 
     outcomes: [
-      "Develops understanding of Maratha military history and governance",
-      "Explores strategic warfare, naval innovation, and fort architecture",
-      "Builds historical empathy and critical analysis skills",
-      "Encourages creativity, teamwork, leadership, and civic imagination",
-      "Connects regional history with broader themes of resistance and statecraft",
+      "Develops understanding of Maratha military history, governance, and strategic warfare",
+      "Encourages historical analysis, creativity, teamwork, and leadership skills",
     ],
 
     cost: "Approx. ₹15,500 per student",
@@ -159,20 +134,13 @@ const multidayData = [
     ],
 
     activities: [
-      "Detective walks investigating structures and settlement layouts",
-      "Artefact observation and analysis sessions at the museum",
-      "Role-play activities recreating life in ancient Tamil societies",
-      "Field journaling and archaeological sketching exercises",
-      "Discussions on heritage preservation and interpretation",
-      "Interactive inquiry sessions exploring early Tamil urbanisation",
+      "Detective walks, artefact analysis, and inquiry sessions exploring early Tamil urbanisation",
+      "Role-play activities, field journaling, and archaeological sketching exercises",
     ],
 
     outcomes: [
-      "Introduces students to archaeological field methods and interpretation",
-      "Develops understanding of early Tamil civilisation and urban life",
-      "Strengthens observation, inquiry, and analytical thinking skills",
-      "Encourages appreciation for heritage conservation and cultural identity",
-      "Connects classroom history with real archaeological evidence",
+      "Develops understanding of early Tamil civilisation and archaeological interpretation",
+      "Strengthens observation, analytical thinking, and appreciation for heritage conservation",
     ],
 
     cost: "Approx. ₹4,500 per student",
@@ -202,20 +170,13 @@ const multidayData = [
     ],
 
     activities: [
-      "Stone carving observation and symbolic interpretation workshops",
-      "Sketching sessions inspired by temple sculptures and architectural details",
-      "Architectural detective activities comparing Dravidian and Nagara styles",
-      "Guided storytelling sessions exploring mythology and temple narratives",
-      "Collaborative heritage interpretation and group presentation exercises",
-      "Reflection circles encouraging historical empathy and cultural understanding",
+      "Stone carving observation, sketching sessions, and architectural comparison activities",
+      "Guided storytelling, heritage interpretation, and reflection-based group discussions",
     ],
 
     outcomes: [
-      "Develops understanding of early Indian temple architecture and artistic traditions",
-      "Explores religious symbolism, inscriptions, and cultural narratives",
-      "Strengthens observation, reasoning, and visual interpretation skills",
-      "Encourages teamwork, creativity, and inquiry-based learning",
-      "Connects historical landscapes with architectural and cultural evolution",
+      "Develops understanding of Indian temple architecture, symbolism, and artistic traditions",
+      "Strengthens observation, creativity, teamwork, and inquiry-based learning skills",
     ],
 
     cost: "Approx. ₹12,500 per student",
@@ -248,21 +209,13 @@ const multidayData = [
     ],
 
     activities: [
-      "Object-based learning and interpretation activities at the Partition Museum",
-      "Reflective storytelling sessions exploring personal Partition narratives",
-      "Role-play and debate sessions on freedom, borders, and identity",
-      "Memorial walks and observation exercises at Jallianwala Bagh",
-      "Interactive discussions on resilience, migration, and collective memory",
-      "Creative expression workshops including journaling, sketching, and group presentations",
-      "Cultural exploration and heritage interpretation at the Golden Temple and historic sites",
+      "Museum interpretation, memorial walks, and discussions exploring Partition, migration, and collective memory",
+      "Role-play, reflective storytelling, and creative expression workshops on freedom, identity, and resilience",
     ],
 
     outcomes: [
-      "Develops deep understanding of the Indian Independence movement and Partition",
-      "Builds historical empathy through personal stories and material culture",
-      "Encourages ethical thinking, reflection, and civic responsibility",
-      "Strengthens critical thinking, collaboration, and communication skills",
-      "Connects regional history with national and global historical themes",
+      "Develops understanding of the Indian Independence movement and the impact of Partition",
+      "Strengthens historical empathy, critical thinking, communication, and civic awareness",
     ],
 
     cost: "Approx. ₹30,000 per student",
@@ -293,21 +246,13 @@ const multidayData = [
     ],
 
     activities: [
-      "Architectural observation and fortification analysis sessions",
-      "Historical storytelling exploring Rajput rulers and resistance",
-      "Creative sketching and palace documentation exercises",
-      "Temple symbolism and Jain art interpretation workshops",
-      "Role-play activities focused on court culture, governance, and diplomacy",
-      "Collaborative discussions on warfare, faith, and regional identity",
-      "Field journaling and landscape interpretation exercises",
+      "Architectural observation, fortification analysis, and creative sketching exercises exploring Rajput heritage",
+      "Historical storytelling, role-play, and discussions on warfare, governance, faith, and regional identity",
     ],
 
     outcomes: [
-      "Develops understanding of Rajput heritage, warfare, and fort culture",
-      "Explores architecture, administration, art, and spiritual traditions",
-      "Introduces students to Jain philosophy and artistic contributions",
-      "Encourages historical empathy, teamwork, and critical thinking",
-      "Connects landscapes, belief systems, and political power structures",
+      "Develops understanding of Rajput culture, architecture, warfare, and spiritual traditions",
+      "Strengthens historical empathy, critical thinking, teamwork, and cultural interpretation skills",
     ],
 
     cost: "Approx. ₹26,000 per student",
@@ -341,21 +286,13 @@ const multidayData = [
     ],
 
     activities: [
-      "Urban planning observation exercises exploring Jaipur's grid-based city design",
-      "Architectural analysis comparing Rajput, Mughal, and Indo-Saracenic styles",
-      "Scientific exploration sessions at Jantar Mantar studying astronomical instruments",
-      "Historical storytelling and heritage interpretation activities at Amer and Jaigarh",
-      "Workshops exploring traditional crafts, guild systems, and royal patronage",
-      "Field sketching, journaling, and collaborative heritage documentation exercises",
-      "Group discussions connecting geography, politics, architecture, and trade",
+      "Urban planning observation, architectural analysis, and scientific exploration sessions at historic sites",
+      "Historical storytelling, craft workshops, field sketching, and collaborative heritage documentation exercises",
     ],
 
     outcomes: [
-      "Develops understanding of Jaipur as India's first planned city",
-      "Explores architectural fusion and scientific innovation in medieval India",
-      "Introduces students to urban planning principles and historical geography",
-      "Encourages observation, inquiry, and interdisciplinary learning",
-      "Builds historical empathy and appreciation for heritage conservation",
+      "Develops understanding of Jaipur's urban planning, architectural fusion, and scientific heritage",
+      "Strengthens observation, interdisciplinary learning, historical empathy, and appreciation for heritage conservation",
     ],
 
     cost: "Approx. ₹26,500 per student",
