@@ -4,7 +4,7 @@ const multidayData = [
 
     title: "Ancient Treasures of Madhya Pradesh",
 
-    duration: "5-7 Days",
+    duration: "3-5 Days",
 
     intro:
       "This immersive educational expedition takes students through the archaeological, artistic, and cultural landscapes of Madhya Pradesh. Designed around experiential learning principles, the journey introduces students to prehistoric cave art, Buddhist heritage, early temple architecture, tribal cultures, and ancient Indian religious traditions through field visits, storytelling, observation, and hands-on activities.",
@@ -35,7 +35,7 @@ const multidayData = [
       "Encourages inquiry-based learning and critical thinking",
     ],
 
-    cost: "Approx. ₹15,500 per student",
+    cost: "Interested in our outstation trips? Get in touch with us and we'll curate the perfect trip for you.",
   },
 
   {
@@ -43,7 +43,7 @@ const multidayData = [
 
     title: "Dholavira Heritage Expedition",
 
-    duration: "5 Days",
+    duration: "3-5 Days",
 
     intro:
       "This curriculum-linked educational expedition introduces students to the fascinating world of the Indus Valley Civilisation through the archaeological landscape of Dholavira. Combining exploration, storytelling, collaborative inquiry, and hands-on field engagement, the journey helps students understand ancient urban planning, trade systems, craftsmanship, and Harappan society while developing historical curiosity and critical thinking.",
@@ -57,7 +57,7 @@ const multidayData = [
     sites: [
       "Dholavira Archaeological Site",
       "Dholavira Museum",
-      "Harappan Water Management Structures",
+      "Road to Heaven",
       "Fossil Park",
     ],
 
@@ -71,7 +71,7 @@ const multidayData = [
       "Develops understanding of ancient urban systems and civilisation structures",
     ],
 
-    cost: "Approx. ₹25,000 per student",
+    cost: "Interested in our outstation trips? Get in touch with us and we'll curate the perfect trip for you.",
   },
 
   {
@@ -79,7 +79,7 @@ const multidayData = [
 
     title: "Maharashtra Heritage Expedition",
 
-    duration: "4-6 Days",
+    duration: "3-5 Days",
 
     intro:
       "This immersive educational expedition takes students across Maharashtra's legendary hill and coastal forts, introducing them to the military strategies, governance systems, leadership ideals, and cultural legacy of the Maratha Empire under Chhatrapati Shivaji Maharaj. Through inquiry-based learning, role-play activities, battlefield interpretation, and hands-on historical exploration, students connect history with innovation, courage, and identity.",
@@ -107,7 +107,7 @@ const multidayData = [
       "Encourages historical analysis, creativity, teamwork, and leadership skills",
     ],
 
-    cost: "Approx. ₹15,500 per student",
+    cost: "Interested in our outstation trips? Get in touch with us and we'll curate the perfect trip for you.",
   },
 
   {
@@ -129,7 +129,6 @@ const multidayData = [
     sites: [
       "Keeladi Excavation Site",
       "Keeladi Museum",
-      "Archaeological Excavation Zones",
       "Ancient Urban Settlement Remains",
     ],
 
@@ -143,7 +142,7 @@ const multidayData = [
       "Strengthens observation, analytical thinking, and appreciation for heritage conservation",
     ],
 
-    cost: "Approx. ₹4,500 per student",
+    cost: "Interested in our outstation trips? Get in touch with us and we'll curate the perfect trip for you.",
   },
 
   {
@@ -151,7 +150,7 @@ const multidayData = [
 
     title: "Karnataka Heritage Expedition",
 
-    duration: "4-5 Days",
+    duration: "3-5 Days",
 
     intro:
       "This experiential learning expedition takes students through the remarkable heritage landscapes of Badami, Aihole, and Pattadakal, introducing them to the evolution of Indian temple architecture, stone carving traditions, religious symbolism, and early Deccan history. Through observation-based learning, collaborative activities, and artistic interpretation, students engage directly with India's architectural and cultural past.",
@@ -179,7 +178,7 @@ const multidayData = [
       "Strengthens observation, creativity, teamwork, and inquiry-based learning skills",
     ],
 
-    cost: "Approx. ₹12,500 per student",
+    cost: "Interested in our outstation trips? Get in touch with us and we'll curate the perfect trip for you.",
   },
 
   {
@@ -187,7 +186,7 @@ const multidayData = [
 
     title: "Amritsar: Witness to Freedom, Partition and Resilience",
 
-    duration: "4-5 Days",
+    duration: "3-5 Days",
 
     intro:
       "This immersive educational expedition takes students through the historical and emotional landscapes of Amritsar, exploring India's Independence movement, the trauma of Partition, and the resilience of communities shaped by these events. Through memorial visits, storytelling, object-based learning, reflective activities, and inquiry-driven discussions, students engage with history as lived human experience while developing empathy, civic awareness, and historical understanding.",
@@ -218,7 +217,7 @@ const multidayData = [
       "Strengthens historical empathy, critical thinking, communication, and civic awareness",
     ],
 
-    cost: "Approx. ₹30,000 per student",
+    cost: "Interested in our outstation trips? Get in touch with us and we'll curate the perfect trip for you.",
   },
 
   {
@@ -226,7 +225,7 @@ const multidayData = [
 
     title: "Udaipur & Mewar Heritage Expedition",
 
-    duration: "4-5 Days",
+    duration: "3-5 Days",
 
     intro:
       "This immersive educational journey takes students through the royal landscapes of Mewar and Rajasthan, exploring majestic forts, palace complexes, sacred spaces, and Rajput cultural traditions. Through experiential learning, heritage interpretation, and collaborative activities, students examine themes of warfare, governance, architecture, spirituality, and artistic patronage while understanding the values and legacy of Rajput society.",
@@ -255,7 +254,7 @@ const multidayData = [
       "Strengthens historical empathy, critical thinking, teamwork, and cultural interpretation skills",
     ],
 
-    cost: "Approx. ₹26,000 per student",
+    cost: "Interested in our outstation trips? Get in touch with us and we'll curate the perfect trip for you.",
   },
 
   {
@@ -263,7 +262,7 @@ const multidayData = [
 
     title: "Jaipur: The Pink City Legacy",
 
-    duration: "4 Days",
+    duration: "3-5 Days",
 
     intro:
       "This immersive educational expedition takes students through the planned urban landscapes, royal architecture, scientific innovation, and cultural heritage of Jaipur. Moving beyond the city's iconic facades, students explore the transition from the defensive hill forts of Amer to the grid-based planning of the Walled City while understanding the visionary leadership, artistic traditions, and scientific advancements of the Kachwaha Rajputs.",
@@ -295,7 +294,45 @@ const multidayData = [
       "Strengthens observation, interdisciplinary learning, historical empathy, and appreciation for heritage conservation",
     ],
 
-    cost: "Approx. ₹26,500 per student",
+    cost: "Interested in our outstation trips? Get in touch with us and we'll curate the perfect trip for you.",
+  },
+
+  {
+    id: "hampi",
+
+    title: "Hampi Heritage Expedition",
+
+    duration: "3-5 Days",
+
+    intro:
+      "This experiential learning expedition takes students through the extraordinary imperial landscape of Hampi, the former capital of the Vijayanagara Empire, and its surrounding prehistoric and archaeological sites. Through the study of temples, palaces, water systems, markets, megalithic monuments, and rock art, students gain insights into medieval urban planning, architecture, trade networks, engineering, and cultural life. Combining heritage walks, observation-based learning, mapping exercises, role-play activities, and archaeological interpretation, the programme enables students to engage directly with one of India's most remarkable cultural landscapes.",
+
+    images: [
+      "/images/service-pics/multiday/hampi-1.webp",
+      "/images/service-pics/multiday/hampi-2.webp",
+      "/images/service-pics/multiday/hampi-3.webp",
+    ],
+
+    sites: [
+      "Virupaksha Temple, Hampi Bazaar and Matanga Hill",
+      "Vittala Temple, King's Balance & Achyutaraya Temple",
+      "Queen's Bath, Mahanavami Dibba & Stepped Tank",
+      "Hire Benakal & Onake Kindi Megalithic and Rock Art Sites",
+      "Underground Shiva Temple and other Vijayanagara gems",
+      "Daroji Sloth Bear Sanctuary (Optional)",
+    ],
+
+    activities: [
+      "Heritage walks, archaeological observation, and landscape interpretation.",
+      "Temple symbolism decoding, architectural sketching, and mapping exercises along with Role-play sessions and historical reconstruction challenges.",
+    ],
+
+    outcomes: [
+      "Develops understanding of the Vijayanagara Empire, medieval urbanism, and temple architecture.",
+      "Strengthens observation, interpretation, and historical inquiry skills.",
+    ],
+
+    cost: "Interested in our outstation trips? Get in touch with us and we'll curate the perfect trip for you.",
   },
 ];
 

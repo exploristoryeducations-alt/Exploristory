@@ -50,8 +50,8 @@ function Home() {
 
             <p>
               Led by experienced archaeologists and historians, our programs
-              bring deep expertise and real-world insight into Indian history
-              and archaeology.
+              bring deep expertise and real-world insight into IIndian History
+              and Archaeology.
             </p>
           </div>
 
@@ -59,9 +59,9 @@ function Home() {
             <h4>CURRICULUM ALIGNED</h4>
 
             <p>
-              Designed in line with CBSE, IB, and ICSE frameworks, our programs
-              support NEP goals through meaningful experiential and cultural
-              learning.
+              Designed in line with CBSE, IB, ICSE, IB-CSE and Cambridge
+              frameworks, our programs support NEP goals through meaningful
+              experiential and cultural learning.
             </p>
           </div>
 

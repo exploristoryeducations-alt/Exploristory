@@ -17,7 +17,7 @@ function Workshops() {
           <img src="/images/service-pics/workshop/workshop-3.webp" alt="workshop-3" />
         </div>
 
-        <h4>Workshop Activities</h4>
+        <h4>Workshop Offered</h4>
 
         <ul>
           <li>

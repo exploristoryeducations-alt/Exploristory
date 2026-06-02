@@ -51,20 +51,17 @@ function MultiDay() {
               ))}
             </ul>
 
-            <h4>Approximate Program Cost</h4>
-
-            <ul>
-              <li>{trip.cost}</li>
-            </ul>
+            <h4>{trip.cost}</h4>
           </div>
         ))}
 
-        <p className="service-note">
+        {/* <p className="service-note">
+          <br />
           Programs include accommodation, meals, internal travel, subject
           experts, and specially curated student workbooks. Expeditions can be
           customized according to the school curriculum and specific learning
           requirements.
-        </p>
+        </p> */}
       </div>
     </section>
   );

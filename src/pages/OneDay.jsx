@@ -30,24 +30,10 @@ function OneDay() {
           </button>
 
           <button
-            className={activeCity === "indore" ? "active" : ""}
-            onClick={() => setActiveCity("indore")}
+            className={activeCity === "hyderabad" ? "active" : ""}
+            onClick={() => setActiveCity("hyderabad")}
           >
-            Indore
-          </button>
-
-          <button
-            className={activeCity === "ujjain" ? "active" : ""}
-            onClick={() => setActiveCity("ujjain")}
-          >
-            Ujjain
-          </button>
-
-          <button
-            className={activeCity === "nagpur" ? "active" : ""}
-            onClick={() => setActiveCity("nagpur")}
-          >
-            Nagpur
+            Hyderabad
           </button>
 
           <button
@@ -55,20 +41,6 @@ function OneDay() {
             onClick={() => setActiveCity("mumbai")}
           >
             Mumbai
-          </button>
-
-          <button
-            className={activeCity === "khandwa" ? "active" : ""}
-            onClick={() => setActiveCity("khandwa")}
-          >
-            Khandwa
-          </button>
-
-          <button
-            className={activeCity === "surat" ? "active" : ""}
-            onClick={() => setActiveCity("surat")}
-          >
-            Surat
           </button>
 
           <button
@@ -86,10 +58,38 @@ function OneDay() {
           </button>
 
           <button
-            className={activeCity === "hyderabad" ? "active" : ""}
-            onClick={() => setActiveCity("hyderabad")}
+            className={activeCity === "surat" ? "active" : ""}
+            onClick={() => setActiveCity("surat")}
           >
-            Hyderabad
+            Surat
+          </button>
+
+          <button
+            className={activeCity === "indore" ? "active" : ""}
+            onClick={() => setActiveCity("indore")}
+          >
+            Indore
+          </button>
+
+          <button
+            className={activeCity === "nagpur" ? "active" : ""}
+            onClick={() => setActiveCity("nagpur")}
+          >
+            Nagpur
+          </button>
+
+          <button
+            className={activeCity === "ujjain" ? "active" : ""}
+            onClick={() => setActiveCity("ujjain")}
+          >
+            Ujjain
+          </button>
+
+          <button
+            className={activeCity === "khandwa" ? "active" : ""}
+            onClick={() => setActiveCity("khandwa")}
+          >
+            Khandwa
           </button>
         </div>
 
@@ -98,8 +98,10 @@ function OneDay() {
             <>
               <h3>Chennai - One Day Heritage Trail</h3>
               <p className="service-intro">
-                For schools in Chennai, we transform one school day into an
-                unforgettable hands-on learning adventure beyond the classroom.
+                For schools in Chennai, we transform a single school day into an
+                unforgettable, hands-on learning adventure beyond the classroom.
+                For schools outside Chennai, we curate special multi-day trips
+                to explore the historical Chennai.
               </p>
 
               <div className="service-gallery">
@@ -125,23 +127,23 @@ function OneDay() {
                 </li>
                 <li>
                   <strong>Egmore Government Museum</strong> - Chola bronzes,
-                  archaeological gallery and children's museum.
+                  Archaeological gallery and Children's museum.
                 </li>
                 <li>
                   <strong>Fort St. George</strong> - Fort Museum, St. Mary's
-                  Church and early colonial structures.
+                  Church and Early colonial structures.
                 </li>
                 <li>
                   <strong>Historic Churches of Chennai</strong> - Santhome
                   Basilica, Luz Church, Armenian Church and St. Thomas Church.
                 </li>
                 <li>
-                  <strong>Kanchipuram</strong> - Kailashnath temple, Vaikunth
-                  Perumal and ancient Jain temples.
+                  <strong>Kanchipuram</strong> - Kailasanathar temple, Vaikunta
+                  Perumal Temple and Ancient Jain Temples.
                 </li>
                 <li>
                   <strong>Gingee Fort</strong> - Rajagiri Citadel, Kalyana Mahal
-                  and medieval fortification structures.
+                  and Medieval fortification structures.
                 </li>
               </ul>
 
@@ -167,7 +169,7 @@ function OneDay() {
               <p>
                 Programs can be customised according to school requirements. For
                 detailed planning and bookings, please contact us through the
-                Contact section.
+                contact section.
               </p>
             </>
           )}
@@ -177,8 +179,10 @@ function OneDay() {
               <h3>Bangalore - One Day Heritage Trail</h3>
 
               <p className="service-intro">
-                For schools in Bangalore, we transform one school day into an
-                unforgettable hands-on learning adventure beyond the classroom.
+                For schools in Bangalore, we transform a single school day into
+                an unforgettable, hands-on learning adventure beyond the
+                classroom. For schools outside Bangalore, we curate special
+                multi-day trips to explore the historical Bangalore.
               </p>
 
               <div className="service-gallery">
@@ -204,17 +208,16 @@ function OneDay() {
                   the name “Bengaluru”.
                 </li>
                 <li>
-                  <strong>Devanahalli Fort</strong> - 16th-century polygonal
-                  fort associated with Hyder Ali and Tipu Sultan.
+                  <strong>Shravanabelagola</strong> - Jain Heritage Trail - Rock
+                  cut architecture and Basadi traditions.
                 </li>
                 <li>
                   <strong>Bangalore Fort</strong> - Originally built by
                   Kempegowda and later expanded with stone fortifications.
                 </li>
                 <li>
-                  <strong>Tipu Sultan's Summer Palace</strong> - Indo-Islamic
-                  wooden palace reflecting Mysorean architecture and Tipu
-                  Sultan's rule.
+                  <strong>Mysuru-Srirangapatna Trail</strong> - The majestic
+                  royal palace built by Tipu Sultan.
                 </li>
                 <li>
                   <strong>Someshwara Temple, Halasuru</strong> - Chola-period
@@ -222,8 +225,13 @@ function OneDay() {
                   architecture.
                 </li>
                 <li>
-                  <strong>Mayo Hall & Kempegowda Museum</strong> - Colonial
-                  civic building illustrating administrative history.
+                  <strong>Mysuru Channapatna Trail</strong> - Experience
+                  traditional wooden toys and how they are made.
+                </li>
+                <li>
+                  <strong>Bangalore Heritage Trail </strong> - Bengaluru fort,
+                  Begur fort, Someshwara temple, Devanahalli, Tipu Sultan's
+                  Summer palace.
                 </li>
               </ul>
 
@@ -262,587 +270,7 @@ function OneDay() {
               <p>
                 Programs can be customised according to school requirements. For
                 detailed planning and bookings, please contact us through the
-                Contact section.
-              </p>
-            </>
-          )}
-
-          {activeCity === "indore" && (
-            <>
-              <h3>Indore - One Day Heritage Trail</h3>
-
-              <p className="service-intro">
-                For schools in Indore, we transform one school day into an
-                unforgettable hands-on learning adventure beyond the classroom.
-              </p>
-
-              <div className="service-gallery">
-                <img
-                  src="/images/service-pics/oneday/indore-1.webp"
-                  alt="Indore Heritage"
-                />
-                <img
-                  src="/images/service-pics/oneday/indore-2.webp"
-                  alt="Indore Fort"
-                />
-                <img
-                  src="/images/service-pics/oneday/indore-3.webp"
-                  alt="Indore Temple"
-                />
-              </div>
-
-              <h4>Key Heritage Sites</h4>
-              <ul>
-                <li>
-                  <strong>Maheshwar Fort</strong> - A historic riverside fort
-                  associated with Ahilya Bai Holkar and the Holkar dynasty.
-                </li>
-                <li>
-                  <strong>Rajwada Palace</strong> - The royal residence
-                  reflecting the administrative and cultural life of the period.
-                </li>
-                <li>
-                  <strong>Narmada Ghats</strong> - Iconic stone ghats along the
-                  Narmada River showcasing temple architecture and river
-                  culture.
-                </li>
-                <li>
-                  <strong>Rehwa Society</strong> - A traditional weaving center
-                  where students learn about Maheshwari handloom textiles.
-                </li>
-              </ul>
-
-              <h4>Learning Activities</h4>
-              <ul>
-                <li>Guided heritage walk through the fort complex.</li>
-                <li>
-                  Observation of architectural styles and monument features.
-                </li>
-                <li>
-                  Interaction with traditional weavers and craft demonstrations.
-                </li>
-                <li>
-                  Creative documentation through sketches and photography.
-                </li>
-              </ul>
-
-              <h4>Indicative Cost</h4>
-              <ul>
-                <li>₹1300 per student (for groups around 45 students).</li>
-                <li>
-                  Includes AC transport, entry fees, meals, facilitators and
-                  activity materials.
-                </li>
-              </ul>
-
-              <p>
-                Programs can be customised according to school requirements. For
-                detailed planning and bookings, please contact us through the
-                Contact section.
-              </p>
-            </>
-          )}
-
-          {activeCity === "ujjain" && (
-            <>
-              <h3>Ujjain - One Day Heritage Trail</h3>
-
-              <p className="service-intro">
-                For schools in Ujjain, we transform one school day into an
-                unforgettable hands-on learning adventure beyond the classroom.
-              </p>
-
-              <div className="service-gallery">
-                <img
-                  src="/images/service-pics/oneday/ujjain-1.webp"
-                  alt="Ujjain Heritage"
-                />
-                <img
-                  src="/images/service-pics/oneday/ujjain-2.webp"
-                  alt="Ujjain Fort"
-                />
-                <img
-                  src="/images/service-pics/oneday/ujjain-3.webp"
-                  alt="Ujjain Temple"
-                />
-              </div>
-
-              <h4>Key Heritage Sites</h4>
-              <ul>
-                <li>
-                  <strong>Ram Janardhan Mandir</strong> - A historic temple
-                  reflecting traditional architecture and religious practices of
-                  the region.
-                </li>
-                <li>
-                  <strong>Triveni Museum</strong> - A curated museum showcasing
-                  sculptures, artifacts, and historical exhibits related to
-                  Ujjain's heritage.
-                </li>
-              </ul>
-
-              <h4>Learning Activities</h4>
-              <ul>
-                <li>
-                  Guided exploration of temple architecture and symbolism.
-                </li>
-                <li>
-                  Understanding cultural and religious significance of Ujjain.
-                </li>
-                <li>Observation and interpretation of museum artifacts.</li>
-                <li>Interactive discussions on history and heritage.</li>
-              </ul>
-
-              <h4>Indicative Cost</h4>
-              <ul>
-                <li>₹650 per student (for groups around 100 students).</li>
-                <li>
-                  Includes AC transport, entry fees, meals, facilitators and
-                  activity materials.
-                </li>
-              </ul>
-
-              <p>
-                Programs can be customised according to school requirements. For
-                detailed planning and bookings, please contact us through the
-                Contact section.
-              </p>
-            </>
-          )}
-
-          {activeCity === "nagpur" && (
-            <>
-              <h3>Nagpur - One Day Heritage Trail</h3>
-
-              <p className="service-intro">
-                For schools in Nagpur, we transform one school day into an
-                unforgettable hands-on learning adventure beyond the classroom.
-              </p>
-
-              <div className="service-gallery">
-                <img
-                  src="/images/service-pics/oneday/nagpur-1.webp"
-                  alt="Nagpur Heritage"
-                />
-                <img
-                  src="/images/service-pics/oneday/nagpur-2.webp"
-                  alt="Nagpur Fort"
-                />
-                <img
-                  src="/images/service-pics/oneday/nagpur-3.webp"
-                  alt="Nagpur Temple"
-                />
-              </div>
-
-              <h4>Key Heritage Sites</h4>
-              <ul>
-                <li>
-                  <strong>Ramtek Fort & Temple Complex</strong> - Includes the
-                  Ram Temple, Karpur Baoli, Varaha statue and several medieval
-                  temples around the hill.
-                </li>
-                <li>
-                  <strong>Mansar Archaeological Site</strong> - An important
-                  site associated with the Vakataka dynasty and early urban
-                  settlement remains.
-                </li>
-              </ul>
-
-              <h4>Learning Activities</h4>
-              <ul>
-                <li>Temple architecture and fortification study.</li>
-                <li>
-                  Sketching and documentation of sculptures and inscriptions.
-                </li>
-                <li>
-                  Introduction to archaeological methods such as stratigraphy
-                  and dating.
-                </li>
-                <li>Artifact interpretation using replica objects.</li>
-                <li>
-                  Group discussions and creative reconstruction of ancient
-                  settlements.
-                </li>
-              </ul>
-
-              <h4>Indicative Cost</h4>
-              <ul>
-                <li>Approximately ₹1200 per student.</li>
-                <li>
-                  Includes AC transport, entry fees, meals, facilitators and
-                  activity materials.
-                </li>
-              </ul>
-
-              <p>
-                Programs can be customised according to school requirements. For
-                detailed planning and bookings, please contact us through the
-                Contact section.
-              </p>
-            </>
-          )}
-
-          {activeCity === "mumbai" && (
-            <>
-              <h3>Mumbai - One Day Heritage Trail</h3>
-
-              <p className="service-intro">
-                For schools in Mumbai, we transform one school day into an
-                unforgettable hands-on learning adventure beyond the classroom.
-              </p>
-
-              <div className="service-gallery">
-                <img
-                  src="/images/service-pics/oneday/mumbai-1.webp"
-                  alt="Mumbai Heritage"
-                />
-                <img
-                  src="/images/service-pics/oneday/mumbai-2.webp"
-                  alt="Mumbai Fort"
-                />
-                <img
-                  src="/images/service-pics/oneday/mumbai-3.webp"
-                  alt="Mumbai Temple"
-                />
-              </div>
-
-              <h4>Key Heritage Sites</h4>
-              <ul>
-                <li>
-                  <strong>Elephanta Caves</strong> - UNESCO heritage site known
-                  for its rock-cut sculptures and depictions of Hindu mythology.
-                </li>
-                <li>
-                  <strong>Kanheri Caves</strong> - Ancient Buddhist monastic
-                  complex showcasing rock-cut architecture and water management
-                  systems.
-                </li>
-                <li>
-                  <strong>Jogeshwari & Mahakali Caves</strong> - Early cave
-                  temples reflecting evolving architectural styles.
-                </li>
-                <li>
-                  <strong>Vasai & Worli Forts</strong> - Coastal forts
-                  highlighting military planning and maritime defense.
-                </li>
-                <li>
-                  <strong>Colonial Fort Area</strong> - Historic district with
-                  Gothic and colonial-era civic buildings.
-                </li>
-                <li>
-                  <strong>CSMVS & Dr. Bhau Daji Lad Museum</strong> - Museums
-                  preserving artifacts and cultural history of the region.
-                </li>
-              </ul>
-
-              <h4>Learning Activities</h4>
-              <ul>
-                <li>
-                  Heritage treasure hunts and archaeological exploration
-                  challenges.
-                </li>
-                <li>
-                  Decoding sculptures, symbols, and religious iconography.
-                </li>
-                <li>Architecture observation and mapping activities.</li>
-                <li>
-                  Group discussions on heritage conservation and urban
-                  evolution.
-                </li>
-                <li>
-                  Museum artifact identification and interpretation exercises.
-                </li>
-              </ul>
-
-              <h4>Indicative Cost</h4>
-              <ul>
-                <li>
-                  Approximately ₹800 - ₹1500 per student depending on group size
-                  and itinerary.
-                </li>
-                <li>
-                  Includes AC transport, entry fees, meals, facilitators and
-                  activity materials.
-                </li>
-              </ul>
-
-              <p>
-                Programs can be customised according to school requirements. For
-                detailed planning and bookings, please contact us through the
-                Contact section.
-              </p>
-            </>
-          )}
-
-          {activeCity === "khandwa" && (
-            <>
-              <h3>Khandwa - One Day Heritage Trail</h3>
-
-              <p className="service-intro">
-                For schools in Khandwa, we transform one school day into an
-                unforgettable hands-on learning adventure beyond the classroom.
-              </p>
-
-              <div className="service-gallery">
-                <img
-                  src="/images/service-pics/oneday/khandwa-1.webp"
-                  alt="Khandwa Heritage"
-                />
-                <img
-                  src="/images/service-pics/oneday/khandwa-2.webp"
-                  alt="Khandwa Fort"
-                />
-                <img
-                  src="/images/service-pics/oneday/khandwa-3.webp"
-                  alt="Khandwa Temple"
-                />
-              </div>
-
-              <h4>Key Heritage Sites</h4>
-              <h4>1. Maheshwar</h4>
-
-              <ul>
-                <li>
-                  <strong>Maheshwar Fort Complex</strong> - Explore the historic
-                  fort associated with Ahilya Bai Holkar.
-                </li>
-                <li>
-                  <strong>Rajwada Palace</strong> - Discover royal life and
-                  architecture of the Holkar period.
-                </li>
-                <li>
-                  <strong>Narmada Ghats</strong> - Study riverfront temple
-                  architecture and cultural life along the Narmada.
-                </li>
-                <li>
-                  <strong>Rehwa Society</strong> - Experience traditional
-                  Maheshwari handloom weaving and crafts.
-                </li>
-              </ul>
-
-              <h4>2. Burhanpur</h4>
-
-              <ul>
-                <li>
-                  <strong>Shahi Qila</strong> - Mughal royal fort and palace
-                  complex.
-                </li>
-                <li>
-                  <strong>Royal Hammam</strong> - Historic bathhouse associated
-                  with Mumtaz Mahal.
-                </li>
-                <li>
-                  <strong>Ahukhana</strong> - Site connected to the original
-                  plan of the Taj Mahal.
-                </li>
-                <li>
-                  <strong>Jama Masjid</strong> - A major Mughal-era mosque
-                  showcasing Islamic architecture.
-                </li>
-                <li>
-                  <strong>Khooni Bhandara</strong> - A remarkable 400-year-old
-                  underground water management system.
-                </li>
-              </ul>
-
-              <h4>Learning Activities</h4>
-
-              <ul>
-                <li>Heritage walks and architectural observation.</li>
-                <li>Interactive role-playing of historical characters.</li>
-                <li>Creative sketching and monument documentation.</li>
-                <li>Treasure hunts and heritage discovery games.</li>
-                <li>Storytelling and reflection sessions.</li>
-              </ul>
-
-              <h4>Indicative Cost</h4>
-
-              <ul>
-                <li>₹1300 per student (for a group of ~45 students).</li>
-                <li>₹800 per student if the school provides its own bus.</li>
-                <li>
-                  Includes AC transport, entry fees, meals, facilitators and
-                  activity materials.
-                </li>
-              </ul>
-
-              <p>
-                Programs can be customised according to school requirements. For
-                detailed planning and bookings, please contact us through the
-                Contact section.
-              </p>
-            </>
-          )}
-
-          {activeCity === "surat" && (
-            <>
-              <h3>Surat - One Day Heritage Trail</h3>
-
-              <p className="service-intro">
-                For schools in Surat, we transform one school day into an
-                unforgettable hands-on learning adventure beyond the classroom.
-              </p>
-
-              <div className="service-gallery">
-                <img
-                  src="/images/service-pics/oneday/surat-1.webp"
-                  alt="Surat Heritage"
-                />
-                <img
-                  src="/images/service-pics/oneday/surat-2.webp"
-                  alt="Surat Fort"
-                />
-                <img
-                  src="/images/service-pics/oneday/surat-3.webp"
-                  alt="Surat Temple"
-                />
-              </div>
-
-              <h4>Key Heritage Sites</h4>
-              <ul>
-                <li>
-                  <strong>Surat Fort</strong> - Historic fort built to defend
-                  the city during its period as a major trading port.
-                </li>
-                <li>
-                  <strong>Kadia Dungar</strong> - A 1st-2nd century CE rock-cut
-                  Buddhist monument offering insight into early religious
-                  architecture.
-                </li>
-                <li>
-                  <strong>Dutch, English & Armenian Cemeteries</strong> -
-                  Heritage sites reflecting the presence of European traders in
-                  Surat.
-                </li>
-                <li>
-                  <strong>Udvada</strong> - Important center of Parsi culture
-                  and heritage.
-                </li>
-                <li>
-                  <strong>Dabhoi</strong> - Historic fortified town known for
-                  its medieval gateways and architecture.
-                </li>
-              </ul>
-
-              <h4>Learning Activities</h4>
-              <ul>
-                <li>Guided heritage walks and site interpretation.</li>
-                <li>
-                  Observation and documentation of architectural features.
-                </li>
-                <li>
-                  Group discussions on trade, culture, and historical exchange.
-                </li>
-                <li>
-                  Interactive heritage activities encouraging critical thinking.
-                </li>
-              </ul>
-
-              <h4>Indicative Cost</h4>
-              <ul>
-                <li>₹1300 per student (for a group of ~45 students).</li>
-                <li>
-                  Includes AC transport, entry fees, meals, facilitators and
-                  activity materials.
-                </li>
-              </ul>
-
-              <p>
-                Programs can be customised according to school requirements. For
-                detailed planning and bookings, please contact us through the
-                Contact section.
-              </p>
-            </>
-          )}
-
-          {activeCity === "delhi" && (
-            <>
-              <h3>Delhi - One Day Heritage Trail</h3>
-
-              <p className="service-intro">
-                For schools in Delhi, we transform one school day into an
-                unforgettable hands-on learning adventure beyond the classroom.
-              </p>
-
-              <div className="service-gallery">
-                <img
-                  src="/images/service-pics/oneday/delhi-1.webp"
-                  alt="Delhi Heritage"
-                />
-                <img
-                  src="/images/service-pics/oneday/delhi-2.webp"
-                  alt="Delhi Fort"
-                />
-                <img
-                  src="/images/service-pics/oneday/delhi-3.webp"
-                  alt="Delhi Temple"
-                />
-              </div>
-
-              <h4>Key Heritage Sites</h4>
-              <ul>
-                <li>
-                  <strong>Purana Qila</strong> - Site of ongoing excavations
-                  revealing layers of ancient Delhi through stratigraphy and
-                  material remains.
-                </li>
-                <li>
-                  <strong>Humayun's Tomb</strong> - A key Mughal monument to
-                  study symmetry, garden planning, and architectural design as
-                  historical evidence.
-                </li>
-                <li>
-                  <strong>Tughlaqabad Fort</strong> - A medieval fort showcasing
-                  defence systems, fortification strategies, and military
-                  architecture.
-                </li>
-                <li>
-                  <strong>Aravalli Region (Mangar/Damdama area)</strong> -
-                  Prehistoric landscape to understand early human survival and
-                  settlement patterns.
-                </li>
-                <li>
-                  <strong>Rakhigarhi (extended option)</strong> - One of the
-                  largest Harappan sites offering insight into Indus Valley
-                  Civilization and urban planning.
-                </li>
-              </ul>
-
-              <h4>Learning Activities</h4>
-              <ul>
-                <li>
-                  Landscape analysis and archaeological observation exercises.
-                </li>
-                <li>Stratigraphy and artifact interpretation activities.</li>
-                <li>
-                  Architectural investigation through sketching and mapping.
-                </li>
-                <li>
-                  Group challenges like settlement design, fort defence, and
-                  city planning.
-                </li>
-                <li>
-                  Roleplay, debates, and evidence-based historical
-                  interpretation.
-                </li>
-              </ul>
-
-              <h4>Indicative Cost</h4>
-              <ul>
-                <li>
-                  ₹1200 - ₹2000 per student (depending on group size and site
-                  selection).
-                </li>
-                <li>
-                  Includes AC transport, entry fees, meals, facilitators and
-                  activity materials.
-                </li>
-              </ul>
-
-              <p>
-                Programs can be customised according to school requirements. For
-                detailed planning and bookings, please contact us through the
-                Contact section.
+                contact section.
               </p>
             </>
           )}
@@ -852,8 +280,10 @@ function OneDay() {
               <h3>Hyderabad - One Day Heritage Trail</h3>
 
               <p className="service-intro">
-                For schools in Hyderabad, we transform one school day into an
-                unforgettable hands-on learning adventure beyond the classroom.
+                For schools in Hyderabad, we transform a single school day into
+                an unforgettable, hands-on learning adventure beyond the
+                classroom. For schools outside Hyderabad, we curate special
+                multi-day trips to explore the historical Hyderabad.
               </p>
 
               <div className="service-gallery">
@@ -937,10 +367,11 @@ function OneDay() {
               <h4>Indicative Cost</h4>
               <ul>
                 <li>
-                  ₹1300 - ₹1500 per student (depending on expedition selection).
+                  Approximately ₹800 - ₹1500 per student depending on group size
+                  and itinerary.
                 </li>
                 <li>
-                  Includes AC transport, entry fees, meals, facilitators, and
+                  Includes AC transport, entry fees, meals, facilitators and
                   activity materials.
                 </li>
               </ul>
@@ -948,7 +379,195 @@ function OneDay() {
               <p>
                 Programs can be customised according to school requirements. For
                 detailed planning and bookings, please contact us through the
-                Contact section.
+                contact section.
+              </p>
+            </>
+          )}
+
+          {activeCity === "mumbai" && (
+            <>
+              <h3>Mumbai - One Day Heritage Trail</h3>
+
+              <p className="service-intro">
+                For schools in Mumbai, we transform a single school day into an
+                unforgettable, hands-on learning adventure beyond the classroom.
+                For schools outside Mumbai, we curate special multi-day trips to
+                explore the historical Mumbai.
+              </p>
+
+              <div className="service-gallery">
+                <img
+                  src="/images/service-pics/oneday/mumbai-1.webp"
+                  alt="Mumbai Heritage"
+                />
+                <img
+                  src="/images/service-pics/oneday/mumbai-2.webp"
+                  alt="Mumbai Fort"
+                />
+                <img
+                  src="/images/service-pics/oneday/mumbai-3.webp"
+                  alt="Mumbai Temple"
+                />
+              </div>
+
+              <h4>Key Heritage Sites</h4>
+              <ul>
+                <li>
+                  <strong>Elephanta Caves</strong> - UNESCO heritage site known
+                  for its rock-cut sculptures and depictions of Hindu mythology.
+                </li>
+                <li>
+                  <strong>Kanheri Caves</strong> - Ancient Buddhist monastic
+                  complex showcasing rock-cut architecture and water management
+                  systems.
+                </li>
+                <li>
+                  <strong>Jogeshwari & Mahakali Caves</strong> - Early cave
+                  temples reflecting evolving architectural styles.
+                </li>
+                <li>
+                  <strong>Vasai & Worli Forts</strong> - Coastal forts
+                  highlighting military planning and maritime defense.
+                </li>
+                <li>
+                  <strong>Colonial Fort Area</strong> - Historic district with
+                  Gothic and colonial-era civic buildings.
+                </li>
+                <li>
+                  <strong>CSMVS & Dr. Bhau Daji Lad Museum</strong> - Museums
+                  preserving artifacts and cultural history of the region.
+                </li>
+              </ul>
+
+              <h4>Learning Activities</h4>
+              <ul>
+                <li>
+                  Heritage treasure hunts and archaeological exploration
+                  challenges.
+                </li>
+                <li>
+                  Decoding sculptures, symbols, and religious iconography.
+                </li>
+                <li>Architecture observation and mapping activities.</li>
+                <li>
+                  Group discussions on heritage conservation and urban
+                  evolution.
+                </li>
+                <li>
+                  Museum artifact identification and interpretation exercises.
+                </li>
+              </ul>
+
+              <h4>Indicative Cost</h4>
+              <ul>
+                <li>
+                  Approximately ₹800 - ₹1500 per student depending on group size
+                  and itinerary.
+                </li>
+                <li>
+                  Includes AC transport, entry fees, meals, facilitators and
+                  activity materials.
+                </li>
+              </ul>
+
+              <p>
+                Programs can be customised according to school requirements. For
+                detailed planning and bookings, please contact us through the
+                contact section.
+              </p>
+            </>
+          )}
+
+          {activeCity === "delhi" && (
+            <>
+              <h3>Delhi - One Day Heritage Trail</h3>
+
+              <p className="service-intro">
+                For schools in Delhi, we transform a single school day into an
+                unforgettable, hands-on learning adventure beyond the classroom.
+                For schools outside Delhi, we curate special multi-day trips to
+                explore the historical Delhi.
+              </p>
+
+              <div className="service-gallery">
+                <img
+                  src="/images/service-pics/oneday/delhi-1.webp"
+                  alt="Delhi Heritage"
+                />
+                <img
+                  src="/images/service-pics/oneday/delhi-2.webp"
+                  alt="Delhi Fort"
+                />
+                <img
+                  src="/images/service-pics/oneday/delhi-3.webp"
+                  alt="Delhi Temple"
+                />
+              </div>
+
+              <h4>Key Heritage Sites</h4>
+              <ul>
+                <li>
+                  <strong>Purana Qila</strong> - Site of ongoing excavations
+                  revealing layers of ancient Delhi through stratigraphy and
+                  material remains.
+                </li>
+                <li>
+                  <strong>Humayun's Tomb</strong> - A key Mughal monument to
+                  study symmetry, garden planning, and architectural design as
+                  historical evidence.
+                </li>
+                <li>
+                  <strong>Tughlaqabad Fort</strong> - A medieval fort showcasing
+                  defence systems, fortification strategies, and military
+                  architecture.
+                </li>
+                <li>
+                  <strong>Aravalli Region (Mangar/Damdama area)</strong> -
+                  Prehistoric landscape to understand early human survival and
+                  settlement patterns.
+                </li>
+                <li>
+                  <strong>Rakhigarhi (extended option)</strong> - One of the
+                  largest Harappan sites offering insight into Indus Valley
+                  Civilization and urban planning.
+                </li>
+              </ul>
+
+              <h4>Learning Activities</h4>
+              <ul>
+                <li>
+                  Landscape analysis and archaeological observation exercises.
+                </li>
+                <li>Stratigraphy and artifact interpretation activities.</li>
+                <li>
+                  Architectural investigation through sketching and mapping.
+                </li>
+                <li>
+                  Group challenges like settlement design, fort defence, and
+                  city planning.
+                </li>
+                <li>
+                  Roleplay, debates, and evidence-based historical
+                  interpretation.
+                </li>
+              </ul>
+
+              <h4>Indicative Cost</h4>
+              <ul>
+                <li>
+                  ₹1200 - ₹2000 per student (depending on group size and site
+                  selection).
+                </li>
+                <li>
+                  Includes AC transport, entry fees, meals, facilitators and
+                  activity materials.
+                </li>
+              </ul>
+
+              <p>
+                Programs can be customised according to school requirements. For
+                detailed planning and bookings, please contact us through the
+                contact section.
               </p>
             </>
           )}
@@ -958,8 +577,10 @@ function OneDay() {
               <h3>Ahmedabad - One Day Heritage Trail</h3>
 
               <p className="service-intro">
-                For schools in Ahmedabad, we transform one school day into an
-                unforgettable hands-on learning adventure beyond the classroom.
+                For schools in Ahmedabad, we transform a single school day into
+                an unforgettable, hands-on learning adventure beyond the
+                classroom. For schools outside Ahmedabad, we curate special
+                multi-day trips to explore the historical Ahmedabad.
               </p>
 
               <div className="service-gallery">
@@ -1061,11 +682,11 @@ function OneDay() {
               <h4>Indicative Cost</h4>
               <ul>
                 <li>
-                  ₹1200 - ₹1500 per student (depending on expedition selection).
+                  Approximately ₹800 - ₹1500 per student depending on group size
+                  and itinerary.
                 </li>
-
                 <li>
-                  Includes AC transport, entry fees, meals, facilitators, and
+                  Includes AC transport, entry fees, meals, facilitators and
                   activity materials.
                 </li>
               </ul>
@@ -1073,7 +694,454 @@ function OneDay() {
               <p>
                 Programs can be customised according to school requirements. For
                 detailed planning and bookings, please contact us through the
-                Contact section.
+                contact section.
+              </p>
+            </>
+          )}
+
+          {activeCity === "surat" && (
+            <>
+              <h3>Surat - One Day Heritage Trail</h3>
+
+              <p className="service-intro">
+                For schools in Surat, we transform a single school day into an
+                unforgettable, hands-on learning adventure beyond the classroom.
+                For schools outside Surat, we curate special multi-day trips to
+                explore the historical Surat.
+              </p>
+
+              <div className="service-gallery">
+                <img
+                  src="/images/service-pics/oneday/surat-1.webp"
+                  alt="Surat Heritage"
+                />
+                <img
+                  src="/images/service-pics/oneday/surat-2.webp"
+                  alt="Surat Fort"
+                />
+                <img
+                  src="/images/service-pics/oneday/surat-3.webp"
+                  alt="Surat Temple"
+                />
+              </div>
+
+              <h4>Key Heritage Sites</h4>
+              <ul>
+                <li>
+                  <strong>Surat Fort</strong> - Historic fort built to defend
+                  the city during its period as a major trading port.
+                </li>
+                <li>
+                  <strong>Kadia Dungar</strong> - A 1st-2nd century CE rock-cut
+                  Buddhist monument offering insight into early religious
+                  architecture.
+                </li>
+                <li>
+                  <strong>Dutch, English & Armenian Cemeteries</strong> -
+                  Heritage sites reflecting the presence of European traders in
+                  Surat.
+                </li>
+                <li>
+                  <strong>Udvada</strong> - Important center of Parsi culture
+                  and heritage.
+                </li>
+                <li>
+                  <strong>Dabhoi</strong> - Historic fortified town known for
+                  its medieval gateways and architecture.
+                </li>
+              </ul>
+
+              <h4>Learning Activities</h4>
+              <ul>
+                <li>Guided heritage walks and site interpretation.</li>
+                <li>
+                  Observation and documentation of architectural features.
+                </li>
+                <li>
+                  Group discussions on trade, culture, and historical exchange.
+                </li>
+                <li>
+                  Interactive heritage activities encouraging critical thinking.
+                </li>
+              </ul>
+
+              <h4>Indicative Cost</h4>
+              <ul>
+                <li>
+                  Approximately ₹800 - ₹1500 per student depending on group size
+                  and itinerary.
+                </li>
+                <li>
+                  Includes AC transport, entry fees, meals, facilitators and
+                  activity materials.
+                </li>
+              </ul>
+
+              <p>
+                Programs can be customised according to school requirements. For
+                detailed planning and bookings, please contact us through the
+                contact section.
+              </p>
+            </>
+          )}
+
+          {activeCity === "indore" && (
+            <>
+              <h3>Indore - One Day Heritage Trail</h3>
+
+              <p className="service-intro">
+                For schools in Indore, we transform a single school day into an
+                unforgettable, hands-on learning adventure beyond the classroom.
+                For schools outside Indore, we curate special multi-day trips to
+                explore the historical Indore.
+              </p>
+
+              <div className="service-gallery">
+                <img
+                  src="/images/service-pics/oneday/indore-1.webp"
+                  alt="Indore Heritage"
+                />
+                <img
+                  src="/images/service-pics/oneday/indore-2.webp"
+                  alt="Indore Fort"
+                />
+                <img
+                  src="/images/service-pics/oneday/indore-3.webp"
+                  alt="Indore Temple"
+                />
+              </div>
+
+              <h4>Key Heritage Sites</h4>
+              <ul>
+                <li>
+                  <strong>
+                    Rajwada Palace, Krishnapura Chhatris and Lal Bagh Palace
+                  </strong>{" "}
+                  - Understanding the history, administration, and architectural
+                  legacy of the Holkar dynasty.
+                </li>
+                <li>
+                  <strong>Bagh Caves and Dhamnar Caves</strong> - Discovering
+                  Buddhist rock-cut architecture, monastic traditions, and
+                  ancient artistic heritage.
+                </li>
+                <li>
+                  <strong>
+                    Maheshwar Fort, Navdatoli and the Narmada Ghats
+                  </strong>{" "}
+                  - Exploring Chalcolithic cultures, river valley settlements,
+                  fort architecture, and living craft traditions.
+                </li>
+                <li>
+                  <strong>Mandu</strong> - Studying medieval urban planning,
+                  water management systems, palaces, and Indo-Islamic
+                  architecture.
+                </li>
+                <li>
+                  <strong>
+                    Tribal Museum and Indira Gandhi Rashtriya Manav Sangrahalaya
+                  </strong>{" "}
+                  - Understanding tribal cultures, indigenous traditions,
+                  vernacular architecture, and ethnographic interpretation.
+                </li>
+              </ul>
+
+              <h4>Learning Activities</h4>
+              <ul>
+                <li>Guided heritage walks and monument exploration.</li>
+                <li>Museum-based learning and artefact analysis.</li>
+                <li>
+                  Architectural documentation, sketching, and photography.
+                </li>
+                <li>Heritage mapping and settlement studies.</li>
+                <li>
+                  Interactive worksheets, group challenges, and reflection
+                  exercises.
+                </li>
+                <li>
+                  Traditional craft demonstrations and cultural interactions.
+                </li>
+              </ul>
+
+              <h4>Indicative Cost</h4>
+              <ul>
+                <li>
+                  Approximately ₹800 - ₹1500 per student depending on group size
+                  and itinerary.
+                </li>
+                <li>
+                  Includes AC transport, entry fees, meals, facilitators and
+                  activity materials.
+                </li>
+              </ul>
+
+              <p>
+                Programs can be customised according to school requirements. For
+                detailed planning and bookings, please contact us through the
+                contact section.
+              </p>
+            </>
+          )}
+
+          {activeCity === "nagpur" && (
+            <>
+              <h3>Nagpur - One Day Heritage Trail</h3>
+
+              <p className="service-intro">
+                For schools in Nagpur, we transform a single school day into an
+                unforgettable, hands-on learning adventure beyond the classroom.
+                For schools outside Nagpur, we curate special multi-day trips to
+                explore the historical Nagpur.
+              </p>
+
+              <div className="service-gallery">
+                <img
+                  src="/images/service-pics/oneday/nagpur-1.webp"
+                  alt="Nagpur Heritage"
+                />
+                <img
+                  src="/images/service-pics/oneday/nagpur-2.webp"
+                  alt="Nagpur Fort"
+                />
+                <img
+                  src="/images/service-pics/oneday/nagpur-3.webp"
+                  alt="Nagpur Temple"
+                />
+              </div>
+
+              <h4>Key Heritage Sites</h4>
+              <ul>
+                <li>
+                  <strong>Ramtek Fort & Temple Complex</strong> - Includes the
+                  Ram Temple, Karpur Baoli, Varaha statue and several medieval
+                  temples around the hill.
+                </li>
+                <li>
+                  <strong>Mansar Archaeological Site</strong> - An important
+                  site associated with the Vakataka dynasty and early urban
+                  settlement remains.
+                </li>
+              </ul>
+
+              <h4>Learning Activities</h4>
+              <ul>
+                <li>Temple architecture and fortification study.</li>
+                <li>
+                  Sketching and documentation of sculptures and inscriptions.
+                </li>
+                <li>
+                  Introduction to archaeological methods such as stratigraphy
+                  and dating.
+                </li>
+                <li>Artifact interpretation using replica objects.</li>
+                <li>
+                  Group discussions and creative reconstruction of ancient
+                  settlements.
+                </li>
+              </ul>
+
+              <h4>Indicative Cost</h4>
+              <ul>
+                <li>
+                  Approximately ₹800 - ₹1500 per student depending on group size
+                  and itinerary.
+                </li>
+                <li>
+                  Includes AC transport, entry fees, meals, facilitators and
+                  activity materials.
+                </li>
+              </ul>
+
+              <p>
+                Programs can be customised according to school requirements. For
+                detailed planning and bookings, please contact us through the
+                contact section.
+              </p>
+            </>
+          )}
+
+          {activeCity === "ujjain" && (
+            <>
+              <h3>Ujjain - One Day Heritage Trail</h3>
+
+              <p className="service-intro">
+                For schools in Ujjain, we transform a single school day into an
+                unforgettable, hands-on learning adventure beyond the classroom.
+                For schools outside Ujjain, we curate special multi-day trips to
+                explore the historical Ujjain.
+              </p>
+
+              <div className="service-gallery">
+                <img
+                  src="/images/service-pics/oneday/ujjain-1.webp"
+                  alt="Ujjain Heritage"
+                />
+                <img
+                  src="/images/service-pics/oneday/ujjain-2.webp"
+                  alt="Ujjain Fort"
+                />
+                <img
+                  src="/images/service-pics/oneday/ujjain-3.webp"
+                  alt="Ujjain Temple"
+                />
+              </div>
+
+              <h4>Key Heritage Sites</h4>
+              <ul>
+                <li>
+                  <strong>Triveni Museum and Ram Janardhan Mandir</strong> -
+                  Exploring sculpture traditions, temple architecture, and the
+                  sacred landscape of ancient Ujjain.
+                </li>
+                <li>
+                  <strong>Devbadla Temple Site</strong> - Investigating the
+                  evolution of early temple architecture and archaeological
+                  interpretation.
+                </li>
+                <li>
+                  <strong>Dharmarajeshwar Temple and Dhamnar Caves</strong> -
+                  Discovering rock-cut architecture, monastic traditions, and
+                  ancient artistic heritage.
+                </li>
+              </ul>
+
+              <h4>Learning Activities</h4>
+              <ul>
+                <li>
+                  Architectural documentation, sketching, and photography.
+                </li>
+                <li>Heritage mapping and settlement studies.</li>
+                <li>
+                  Interactive worksheets, group challenges, and reflection
+                  exercises.
+                </li>
+                <li>
+                  Storytelling sessions focused on archaeology, history, and
+                  heritage conservation.
+                </li>
+                <li>
+                  - Archaeological site interpretation and landscape
+                  observation.
+                </li>
+              </ul>
+
+              <h4>Indicative Cost</h4>
+              <ul>
+                <li>₹650 per student (for groups around 100 students).</li>
+                <li>
+                  Includes AC transport, entry fees, meals, facilitators and
+                  activity materials.
+                </li>
+              </ul>
+
+              <p>
+                Programs can be customised according to school requirements. For
+                detailed planning and bookings, please contact us through the
+                contact section.
+              </p>
+            </>
+          )}
+
+          {activeCity === "khandwa" && (
+            <>
+              <h3>Khandwa - One Day Heritage Trail</h3>
+
+              <p className="service-intro">
+                For schools in Khandwa, we transform a single school day into an
+                unforgettable, hands-on learning adventure beyond the classroom.
+                For schools outside Khandwa, we curate special multi-day trips
+                to explore the historical Khandwa.
+              </p>
+
+              <div className="service-gallery">
+                <img
+                  src="/images/service-pics/oneday/khandwa-1.webp"
+                  alt="Khandwa Heritage"
+                />
+                <img
+                  src="/images/service-pics/oneday/khandwa-2.webp"
+                  alt="Khandwa Fort"
+                />
+                <img
+                  src="/images/service-pics/oneday/khandwa-3.webp"
+                  alt="Khandwa Temple"
+                />
+              </div>
+
+              <h4>Key Heritage Sites</h4>
+              <h4>1. Maheshwar</h4>
+
+              <ul>
+                <li>
+                  <strong>Maheshwar Fort Complex</strong> - Explore the historic
+                  fort associated with Ahilya Bai Holkar.
+                </li>
+                <li>
+                  <strong>Rajwada Palace</strong> - Discover royal life and
+                  architecture of the Holkar period.
+                </li>
+                <li>
+                  <strong>Narmada Ghats</strong> - Study riverfront temple
+                  architecture and cultural life along the Narmada.
+                </li>
+                <li>
+                  <strong>Rehwa Society</strong> - Experience traditional
+                  Maheshwari handloom weaving and crafts.
+                </li>
+              </ul>
+
+              <h4>2. Burhanpur</h4>
+
+              <ul>
+                <li>
+                  <strong>Shahi Qila</strong> - Mughal royal fort and palace
+                  complex.
+                </li>
+                <li>
+                  <strong>Royal Hammam</strong> - Historic bathhouse associated
+                  with Mumtaz Mahal.
+                </li>
+                <li>
+                  <strong>Ahukhana</strong> - Site connected to the original
+                  plan of the Taj Mahal.
+                </li>
+                <li>
+                  <strong>Jama Masjid</strong> - A major Mughal-era mosque
+                  showcasing Islamic architecture.
+                </li>
+                <li>
+                  <strong>Khooni Bhandara</strong> - A remarkable 400-year-old
+                  underground water management system.
+                </li>
+              </ul>
+
+              <h4>Learning Activities</h4>
+
+              <ul>
+                <li>Heritage walks and architectural observation.</li>
+                <li>Interactive role-playing of historical characters.</li>
+                <li>Creative sketching and monument documentation.</li>
+                <li>Treasure hunts and heritage discovery games.</li>
+                <li>Storytelling and reflection sessions.</li>
+              </ul>
+
+              <h4>Indicative Cost</h4>
+
+              <ul>
+                <li>
+                  Approximately ₹800 - ₹1500 per student depending on group size
+                  and itinerary.
+                </li>
+                <li>
+                  Includes AC transport, entry fees, meals, facilitators and
+                  activity materials.
+                </li>
+              </ul>
+
+              <p>
+                Programs can be customised according to school requirements. For
+                detailed planning and bookings, please contact us through the
+                contact section.
               </p>
             </>
           )}

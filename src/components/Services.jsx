@@ -17,15 +17,15 @@ function Services() {
       <div className="operating-cities">
         <Link to="/services/chennai#oneday">Chennai</Link>
         <Link to="/services/bangalore#oneday">Bangalore</Link>
-        <Link to="/services/indore#oneday">Indore</Link>
-        <Link to="/services/ujjain#oneday">Ujjain</Link>
-        <Link to="/services/nagpur#oneday">Nagpur</Link>
+        <Link to="/services/hyderabad#oneday">Hyderabad</Link>
         <Link to="/services/mumbai#oneday">Mumbai</Link>
-        <Link to="/services/khandwa#oneday">Khandwa</Link>
-        <Link to="/services/surat#oneday">Surat</Link>
         <Link to="/services/delhi#oneday">Delhi</Link>
         <Link to="/services/ahmedabad#oneday">Ahmedabad</Link>
-        <Link to="/services/hyderabad#oneday">Hyderabad</Link>
+        <Link to="/services/surat#oneday">Surat</Link>
+        <Link to="/services/indore#oneday">Indore</Link>
+        <Link to="/services/nagpur#oneday">Nagpur</Link>
+        <Link to="/services/ujjain#oneday">Ujjain</Link>
+        <Link to="/services/khandwa#oneday">Khandwa</Link>
       </div>
 
       <div className="cards-grid">

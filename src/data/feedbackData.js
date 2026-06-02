@@ -69,7 +69,7 @@ const feedbackData = [
 
     feedbacks: [
       {
-        text: "Good morning myself Ankita Nayak  I am from TRWS the Radiant World School. The heritage session conducted by Exploristory team and the activity conducted by them was very useful for the students and well as the teachers. They guided us very well. And also conducted a visit to the stone musuem  and shared a lot of information about stones and rocks. Thanyou.",
+        text: "Good morning myself Ankita Nayak  I am from TRWS the Radiant World School. The heritage session conducted by Exploristory team and the activity conducted by them was very useful for the students and well as the teachers. They guided us very well. And also conducted a visit to the stone museum and shared a lot of information about stones and rocks. Thankyou.",
 
         author: "Ma'am Ankita Nayak, Teacher, Radiant World School",
       },

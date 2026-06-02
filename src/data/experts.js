@@ -36,8 +36,8 @@ const experts = [
   },
 
   {
-    image: "/images/experts/mamta_gajabhe.webp",
-    name: "Mamta Gajabhe",
+    image: "/images/experts/mamta_gajbhe.webp",
+    name: "Mamta Gajbhe",
     expertise: "Crafts & Textile Expert",
   },
 
@@ -72,8 +72,8 @@ const experts = [
   },
 
   {
-    image: "/images/experts/tejash.webp",
-    name: "Tejash",
+    image: "/images/experts/tejash_vachhani.webp",
+    name: "Tejash Vachhani",
     expertise: "Gujarati Language Expert",
   },
 
@@ -93,6 +93,18 @@ const experts = [
     image: "/images/experts/ishita_sadhukha.webp",
     name: "Ishita Sadhukha",
     expertise: "Bengali Language Expert",
+  },
+
+  {
+    image: "/images/experts/muralikrishnan.webp",
+    name: "Muralikrishnan",
+    expertise: "Archaeology Expert",
+  },
+
+  {
+    image: "/images/experts/chelsea.webp",
+    name: "Chelsea",
+    expertise: "Arts & Architecture Expert",
   },
 ];
 
