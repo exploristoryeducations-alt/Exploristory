@@ -507,29 +507,27 @@ function OneDay() {
               <h4>Key Heritage Sites</h4>
               <ul>
                 <li>
-                  <strong>Purana Qila</strong> - Site of ongoing excavations
-                  revealing layers of ancient Delhi through stratigraphy and
-                  material remains.
+                  <strong>
+                    Aravalli Prehistoric Landscape (Mangar Village trail)
+                  </strong>{" "}
+                  - Exploring Stone Age lifeways and prehistoric archaeology.
                 </li>
                 <li>
-                  <strong>Humayun's Tomb</strong> - A key Mughal monument to
-                  study symmetry, garden planning, and architectural design as
-                  historical evidence.
+                  <strong>Rakhigarhi</strong> - Discovering the urban planning
+                  and culture of the Indus Valley Civilisation.
                 </li>
                 <li>
-                  <strong>Tughlaqabad Fort</strong> - A medieval fort showcasing
-                  defence systems, fortification strategies, and military
-                  architecture.
+                  <strong>Purana Qila</strong> - Understanding the
+                  archaeological layers and history of ancient Delhi.
                 </li>
                 <li>
-                  <strong>Aravalli Region (Mangar/Damdama area)</strong> -
-                  Prehistoric landscape to understand early human survival and
-                  settlement patterns.
+                  <strong>Tughlaqabad Fort and Humayun's Tomb</strong> -
+                  Understanding medieval military architecture and defence
+                  systems.
                 </li>
                 <li>
-                  <strong>Rakhigarhi (extended option)</strong> - One of the
-                  largest Harappan sites offering insight into Indus Valley
-                  Civilization and urban planning.
+                  <strong>Taj Mahal, Agra Fort & Fatehpur Sikri</strong> -
+                  Examining Mughal power, architecture, and urban planning.
                 </li>
               </ul>
 
@@ -601,52 +599,54 @@ function OneDay() {
               <h4>Key Heritage Sites</h4>
               <ul>
                 <li>
-                  <strong>Vadnagar Museum Expedition</strong> - Explore the
-                  historical layers of Vadnagar through Buddhist, Solanki, and
-                  medieval remains while understanding archaeology and cultural
-                  evolution.
+                  <strong>Vadnagar Museum</strong> - Exploring the
+                  archaeological and cultural history of one of Gujarat's oldest
+                  continuously inhabited settlements.
                 </li>
 
                 <li>
-                  <strong>Rani ki Vav (Patan)</strong> - Study stepwell
-                  engineering, Maru-Gurjara architecture, temple-style carvings,
-                  and medieval water management systems.
+                  <strong>Rani ki Vav & Adalaj Stepwell</strong> - Understanding
+                  stepwell architecture, water management systems, and artistic
+                  traditions.
                 </li>
 
                 <li>
-                  <strong>Modhera Sun Temple</strong> - Examine temple
-                  orientation, astronomy in ancient India, ritual spaces, and
-                  symbolic architecture dedicated to Surya.
+                  <strong>Modhera Sun Temple</strong> - Studying temple
+                  architecture, astronomy, and sacred landscapes.
                 </li>
 
                 <li>
-                  <strong>
-                    Lothal Harappan Port City & National Maritime Heritage
-                    Complex
-                  </strong>
-                  - Learn about Harappan urban planning, dockyard systems, trade
-                  routes, and archaeological methods.
+                  <strong>Lothal & National Maritime Heritage Complex</strong>-
+                  Discovering Harappan urban planning, trade networks, and
+                  maritime heritage.
                 </li>
 
                 <li>
                   <strong>Champaner-Pavagadh Archaeological Park</strong> -
-                  Understand medieval urban planning, fortifications, sacred
-                  landscapes, and the blend of Hindu-Islamic architecture.
+                  Exploring medieval urbanism, fortifications, and cultural
+                  interactions.
                 </li>
 
                 <li>
-                  <strong>Adalaj Stepwell & Siddhapur - Rudra Mahalaya</strong>{" "}
-                  - Explore Indo-Islamic water architecture, Solanki-era temple
-                  ruins, and public heritage spaces.
+                  <strong>Siddhapur & Rudra Mahalaya</strong> - Investigating
+                  Solanki-era temple architecture and historical landscapes.
                 </li>
 
                 <li>
-                  <strong>
-                    Baroda Cultural Expedition & Ahmedabad Heritage Walk
-                  </strong>{" "}
-                  - Discover royal patronage, museum studies, Sultanate
-                  architecture, pol houses, and Ahmedabad's living heritage
-                  traditions.
+                  <strong>Vadodara Cultural Circuit</strong> - Examining royal
+                  patronage, museums, and educational institutions.
+                </li>
+
+                <li>
+                  <strong>Devnimori, Shamlaji & Roda Temples</strong> -
+                  Understanding Buddhist archaeology, temple evolution, and
+                  regional history.
+                </li>
+
+                <li>
+                  <strong>Ahmedabad Heritage Walk</strong> - Experiencing
+                  Sultanate architecture, historic neighbourhoods, and living
+                  heritage.
                 </li>
               </ul>
 
