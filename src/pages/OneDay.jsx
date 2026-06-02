@@ -1,16 +1,25 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { useParams } from "react-router-dom";
 
 function OneDay() {
   const { city } = useParams();
   const [activeCity, setActiveCity] = useState("chennai");
+
+  const citiesTopRef = useRef(null);
+
+  const scrollToCities = () => {
+    citiesTopRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
   useEffect(() => {
     if (city) {
       setActiveCity(city.toLowerCase());
     }
   }, [city]);
   return (
-    <section id="oneday" className="service-section">
+    <section id="oneday" className="service-section" ref={citiesTopRef}>
       <div className="container">
         <h1 className="section-title">ONE-DAY TRIPS</h1>
 
@@ -1145,6 +1154,12 @@ function OneDay() {
               </p>
             </>
           )}
+
+          <div className="back-to-cities-wrapper">
+            <button className="back-to-cities-btn" onClick={scrollToCities}>
+              Back to Cities ↑
+            </button>
+          </div>
         </div>
       </div>
     </section>
