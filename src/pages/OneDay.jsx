@@ -56,7 +56,7 @@ function OneDay() {
             className={activeCity === "delhi" ? "active" : ""}
             onClick={() => setActiveCity("delhi")}
           >
-            Delhi
+            Delhi NCR
           </button>
 
           <button
@@ -238,8 +238,7 @@ function OneDay() {
                   traditional wooden toys and how they are made.
                 </li>
                 <li>
-                  <strong>Bangalore Heritage Trail </strong> - Bengaluru fort,
-                  Begur fort, Someshwara temple, Devanahalli, Tipu Sultan's
+                  <strong>Bangalore Heritage Trail </strong> - Tipu Sultan's
                   Summer palace.
                 </li>
               </ul>
@@ -489,13 +488,13 @@ function OneDay() {
 
           {activeCity === "delhi" && (
             <>
-              <h3>Delhi - One Day Heritage Trail</h3>
+              <h3>Delhi NCR - One Day Heritage Trail</h3>
 
               <p className="service-intro">
-                For schools in Delhi, we transform a single school day into an
-                unforgettable, hands-on learning adventure beyond the classroom.
-                For schools outside Delhi, we curate special multi-day trips to
-                explore the historical Delhi.
+                For schools in Delhi NCR, we transform a single school day into
+                an unforgettable, hands-on learning adventure beyond the
+                classroom. For schools outside Delhi NCR, we curate special
+                multi-day trips to explore the historical Delhi.
               </p>
 
               <div className="service-gallery">

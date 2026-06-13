@@ -2,6 +2,7 @@ import Services from "../components/Services";
 import OurWork from "./OurWork";
 import Gallery from "../components/Gallery";
 import Team from "../components/Team";
+import FAQ from "../components/FAQ";
 import Contact from "../components/Contact";
 import ExpertsSlider from "../components/ExpertsSlider";
 import logo from "../assets/img/logo.png";
@@ -59,7 +60,7 @@ function Home() {
             <h4>CURRICULUM ALIGNED</h4>
 
             <p>
-              Designed in line with CBSE, IB, ICSE, IB-CSE and Cambridge
+              Designed in line with CBSE, IB, ICSE, IGCSE and Cambridge
               frameworks, our programs support NEP goals through meaningful
               experiential and cultural learning.
             </p>
@@ -79,6 +80,7 @@ function Home() {
       <OurWork />
       <Team />
       <ExpertsSlider />
+      <FAQ />
       <Contact />
       <a href="#contact" className="floating-contact-btn">
         STEP INTO HISTORY NOW

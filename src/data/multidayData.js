@@ -2,7 +2,9 @@ const multidayData = [
   {
     id: "madhya-pradesh",
 
-    title: "Ancient Treasures of Madhya Pradesh",
+    shortTitle: "Madhya Pradesh",
+
+    title: "Madhya Pradesh Heritage Expedition",
 
     duration: "3-5 Days",
 
@@ -41,6 +43,8 @@ const multidayData = [
   {
     id: "dholavira",
 
+    shortTitle: "Dholavira",
+
     title: "Dholavira Heritage Expedition",
 
     duration: "3-5 Days",
@@ -76,6 +80,8 @@ const multidayData = [
 
   {
     id: "maharashtra-heritage",
+
+    shortTitle: "Maharashtra",
 
     title: "Maharashtra Heritage Expedition",
 
@@ -113,6 +119,8 @@ const multidayData = [
   {
     id: "keeladi",
 
+    shortTitle: "Keeladi",
+
     title: "Keeladi Heritage Expedition",
 
     duration: "2-3 Days",
@@ -147,6 +155,8 @@ const multidayData = [
 
   {
     id: "karnataka-heritage",
+
+    shortTitle: "Karnataka",
 
     title: "Karnataka Heritage Expedition",
 
@@ -184,7 +194,9 @@ const multidayData = [
   {
     id: "amritsar",
 
-    title: "Amritsar: Witness to Freedom, Partition and Resilience",
+    shortTitle: "Amritsar",
+
+    title: "Amritsar Heritage Expedition",
 
     duration: "3-5 Days",
 
@@ -223,6 +235,8 @@ const multidayData = [
   {
     id: "udaipur-mewar",
 
+    shortTitle: "Udaipur & Mewar",
+
     title: "Udaipur & Mewar Heritage Expedition",
 
     duration: "3-5 Days",
@@ -260,7 +274,9 @@ const multidayData = [
   {
     id: "jaipur",
 
-    title: "Jaipur: The Pink City Legacy",
+    shortTitle: "Jaipur",
+
+    title: "Jaipur Heritage Expedition",
 
     duration: "3-5 Days",
 
@@ -299,6 +315,8 @@ const multidayData = [
 
   {
     id: "hampi",
+
+    shortTitle: "Hampi",
 
     title: "Hampi Heritage Expedition",
 
