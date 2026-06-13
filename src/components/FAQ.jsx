@@ -60,7 +60,7 @@ function FAQ() {
   return (
     <section id="faq" className="faq-section">
       <div className="container">
-        <h2 className="section-title">Frequently Asked Questions</h2>
+        <h2 className="subsection-title">FREQUENTLY ASKED QUESTIONS</h2>
 
         <div className="faq-list">
           {faqData.map((faq, index) => (
