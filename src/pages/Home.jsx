@@ -18,7 +18,7 @@ function Home() {
 
           <div className="hero-right">
             <h1>
-              <strong>TO EXPERIENCE HISTORY</strong> BEING UNCOVERED THROUGH
+              <strong>EXPERIENCE HISTORY</strong> BEING UNCOVERED THROUGH
               IMMERSIVE, HANDS-ON TRIPS AND EXPEDITIONS
             </h1>
           </div>
@@ -51,7 +51,7 @@ function Home() {
 
             <p>
               Led by experienced archaeologists and historians, our programs
-              bring deep expertise and real-world insight into IIndian History
+              bring deep expertise and real-world insight into Indian History
               and Archaeology.
             </p>
           </div>
@@ -67,7 +67,7 @@ function Home() {
           </div>
 
           <div className="why-card">
-            <h4>IMMERSE EXPERIENCE</h4>
+            <h4>IMMERSIVE EXPERIENCE</h4>
 
             <p>
               Go beyond textbooks with hands-on activities, historical site
